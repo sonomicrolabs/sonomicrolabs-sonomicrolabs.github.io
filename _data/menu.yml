@@ -36,8 +36,8 @@ main:
   - name: About
     url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+  - name: Request quote
+    url: 
     weight: 6
 footer_primary:
   - name: Home
@@ -69,8 +69,8 @@ footer_tertiary:
   - name: Terms and Conditions
     url: /terms-and-conditions/
     weight: 2
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+  - name: Request quote
+    url: 
     weight: 3
 bottom:
   - name: Privacy Policy

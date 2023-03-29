@@ -1,10 +1,10 @@
 ---
 layout: home
 permalink: "/"
-title: "Jekyll Advance"
+title: "SonoMicro Labs"
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: Jekyll Advance - Premium Jekyll Theme
+meta_title: SonoMicro Labs
 
 hero:
   enabled: true
@@ -19,7 +19,7 @@ hero:
   fullscreen_desktop: false
   height: "660px"
   buttons:
-    enabled: false
+    enabled: true
     list:
       - text: "Request Quote"
         url: ""
@@ -47,7 +47,7 @@ services:
   prevent_click: false
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
   heading: "We've helped hundreds of people grow their business online."
@@ -75,12 +75,12 @@ intro:
         style: "primary"
 
 partners:
-  enabled: true
+  enabled: false
   limit: 5
   sort: "weight" # 'date'
 
 projects:
-  enabled: true
+  enabled: false
   heading: "Our Projects"
   sub_heading: ""
   limit: 2
@@ -95,7 +95,7 @@ outro:
   align: center
   image: false
   heading: Get Started Today
-  sub_heading: "Save time and money in your digital yourney."
+  sub_heading: "Save time and money on your digital yourney."
   features:
     enabled: false
     list:
@@ -110,7 +110,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Latest Posts"
   sub_heading: ""
   limit: 3
