@@ -9,7 +9,7 @@ meta_title: SonoMicro Labs
 hero:
   enabled: true
   heading: "SonoMicro Labs"
-  sub_heading: "We provide smart water data collection solutions, that empower your business to take data driven sustainability decisions."
+  sub_heading: "Benefit from our innovative water data collection solutions, equipping your business to make data-guided choices for sustainability."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -28,12 +28,12 @@ hero:
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "Documentation"
+      - text: "Contact Us"
         url: ""
-        external: true
+        external: false
         fa_icon: false
         size: large
-        outline: true
+        outline: false
         style: "light"
 
 services:
@@ -44,24 +44,24 @@ services:
   sort: "weight" # 'date'
   view_more_button_text: "View All Services"
   view_more_button_link: "/services"
-  prevent_click: false
+  prevent_click: true
 
 intro:
-  enabled: false
+  enabled: true
   align: left
   image: "/assets/images/gen/content/content-5-thumbnail.webp"
-  heading: "We've helped hundreds of people grow their business online."
-  sub_heading: "Our software empowers customers and retailers to work from anywhere in the world, on the go, or at home."
+  heading: "Welcome to SonoMicro, your partner in sustainable water management solutions."
+  sub_heading: "Our cutting-edge, non-invasive sub-metering hardware and intuitive digital platform empower data-driven decisions to optimize water use and reduce waste. Focused on mid-sized European companies subject to the EU Corporate Sustainability Reporting Directive (CSRD), we offer tailored services to help you achieve sustainability goals within budget constraints. Join us in revolutionizing water management and fostering a greener future. Experience the SonoMicro advantage today."
   features:
-    enabled: false
+    enabled: true
     list:
-      - text: "Configure the homepage sections in front-matter."
+      - text: "Accurate, real-time measurements of water flow for efficient water consumption monitoring"
         fa_icon: "fas fa-check"
-      - text: "An advanced hero image section with dozens of design options."
+      - text: "Seamless integration and user-friendly interface for easy implementation and data visualization."
         fa_icon: "fas fa-check"
-      - text: "Fully responsive and SEO optimised."
+      - text: "Tailored recommendations for optimizing water usage and reducing waste, contributing to a sustainable future."
         fa_icon: "fas fa-check"
-      - text: "Multiple content types including services, projects, blog and more."
+      - text: "Cost-effective access to comprehensive hardware and software solutions, meeting budget constraints and enabling organizations of all sizes to embrace sustainable practices."
         fa_icon: "fas fa-check"
   buttons:
     enabled: true
@@ -71,7 +71,7 @@ intro:
         external: false
         fa_icon: ""
         size: large
-        outline: false
+        outline: true
         style: "primary"
 
 partners:
@@ -97,7 +97,7 @@ outro:
   heading: Get Started Today
   sub_heading: "Save time and money on your digital yourney."
   features:
-    enabled: false
+    enabled: true
     list:
       - text: "Free Quote"
         fa_icon: "fas fa-envelope-open-text"
@@ -106,7 +106,7 @@ outro:
     list:
       - text: "Contact Us"
         url: "/contact"
-        external: false
+        external: true
         size: "large"
 
 posts:

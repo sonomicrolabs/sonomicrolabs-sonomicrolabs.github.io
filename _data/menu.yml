@@ -6,37 +6,37 @@ main:
     url: /services/
     weight: 1
     child:
-      - name: "Web Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Branding"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
-  - name: Projects
-    url: /projects/
-    weight: 2
-    child:
-      - name: "Book Design"
-        url: /projects/book-design/
-      - name: "Special Edition"
-        url: /projects/special-edition/
-      - name: "Master System"
-        url: /projects/master-system/
-      - name: "Clothing Range"
-        url: /projects/clothing-range/
-  - name: Blog
-    url: /blog/
-    weight: 4
+      - name: "Custom Alarms"
+        url: /services/custom-alarms/
+      - name: "Measurement Hardware"
+        url: /services/hardware/
+      - name: "Licencing model"
+        url: /services/licensing-model/
+      - name: "OEM"
+        url: /services/OEM/
+      - name: "Resources Optimization"
+        url: /services/asset-optimization/
+      - name: "Digital Cloud Solutions"
+        url: /services/digital-solutions/
+  #- name: Projects
+  #  url: /projects/
+  #  weight: 2
+  #  child:
+  #    - name: "Book Design"
+  #      url: /projects/book-design/
+  #    - name: "Special Edition"
+  #      url: /projects/special-edition/
+  #    - name: "Master System"
+  #      url: /projects/master-system/
+  #    - name: "Clothing Range"
+  #      url: /projects/clothing-range/
+  #- name: Blog
+  #  url: /blog/
+  #  weight: 4
   - name: About
     url: /about/
     weight: 5
-  - name: Request quote
+  - name: Request Quote
     url: 
     weight: 6
 footer_primary:
@@ -46,22 +46,22 @@ footer_primary:
   - name: Services
     url: /services/
     weight: 2
-  - name: Projects
-    url: /projects/
-    weight: 3
+  #- name: Projects
+  #  url: /projects/
+  #  weight: 3
   - name: Team
     url: /team/
     weight: 4
 footer_secondary:
-  - name: Blog
-    url: /blog/
-    weight: 1
+# - name: Blog
+#    url: /blog/
+#    weight: 1
   - name: About
     url: /about/
-    weight: 2
+    weight: 1
   - name: Contact
     url: /contact/
-    weight: 3
+    weight: 2
 footer_tertiary:
   - name: Privacy Policy
     url: /privacy-policy/
