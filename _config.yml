@@ -2,7 +2,7 @@
 # Jekyll Config
 # --------------------
 remote_theme: "sonomicrolabs/sonomicrolabs.github.io"
-baseurl: ""
+baseurl: 
 url: "https://www.sonomicro.com"
 permalink: pretty
 markdown: kramdown
