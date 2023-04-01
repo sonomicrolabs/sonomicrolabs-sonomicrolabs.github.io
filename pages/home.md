@@ -1,14 +1,14 @@
 ---
 layout: home
 permalink: "/"
-title: "SonoMicro Labs"
+title: "SonoMicro"
 description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: SonoMicro Labs
+meta_title: SonoMicro
 
 hero:
   enabled: true
-  heading: "SonoMicro Labs"
+  heading: "SonoMicro"
   sub_heading: "Benefit from our innovative water data collection solutions, providing your business with actionable insights to make data-guided choices for sustainability."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
