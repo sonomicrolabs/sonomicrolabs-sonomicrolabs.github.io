@@ -9,7 +9,7 @@ meta_title: SonoMicro Labs
 hero:
   enabled: true
   heading: "SonoMicro Labs"
-  sub_heading: "Benefit from our innovative water data collection solutions, equipping your business to make data-guided choices for sustainability."
+  sub_heading: "Benefit from our innovative water data collection solutions, providing your business with actionable insights to make data-guided choices for sustainability."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -44,12 +44,12 @@ services:
   sort: "weight" # 'date'
   view_more_button_text: "View All Services"
   view_more_button_link: "/services"
-  prevent_click: true
+  prevent_click: false
 
 intro:
   enabled: true
   align: left
-  image: "/assets/images/gen/content/content-5-thumbnail.webp"
+  image: "/assets/images/gen/content/drop-data.webp"
   heading: "Welcome to SonoMicro, your partner in sustainable water management solutions."
   sub_heading: "Our cutting-edge, non-invasive sub-metering hardware and intuitive digital platform empower data-driven decisions to optimize water use and reduce waste. Focused on mid-sized European companies subject to the EU Corporate Sustainability Reporting Directive (CSRD), we offer tailored services to help you achieve sustainability goals within budget constraints. Join us in revolutionizing water management and fostering a greener future. Experience the SonoMicro advantage today."
   features:

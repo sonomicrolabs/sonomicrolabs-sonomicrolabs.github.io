@@ -8,7 +8,7 @@ header_transparent: true
 hero:
   enabled: true
   heading: "Services"
-  sub_heading: "We offer a complete range of digital services."
+  sub_heading: "We offer a comprehensive, sustainable water management solutions ."
   text_color: "#FFFFFF"
   background_color: false
   background_gradient: true
@@ -35,11 +35,11 @@ grid:
   prevent_click: false
 
 intro:
-  enabled: false
+  enabled: true
   align: left
   image: false
-  heading: "A Full Service Agency"
-  sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sapien in elit semper accumsan. Pellentesque accumsan ut tortor eu varius. Sed id tincidunt massa, ut egestas orci."
+  heading: "Sustainable Water Management Solutions for Businesses."
+  sub_heading: "Our hardware and digital platform provide actionable data to optimize water use, reduce waste, and our team provides consultations to help your business achieve its sustainability goals while adhering to budget constraints. Join us in revolutionizing water management and fostering a greener future."
   buttons:
     enabled: false
     list:

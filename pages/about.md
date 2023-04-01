@@ -5,7 +5,7 @@ date: 2018-11-28T15:15:34+10:00
 header_transparent: true
 permalink: "/about/"
 description: "Empowering Sustainability Through Advanced Water Monitoring."
-image: "/assets/images/gen/content/content-5.webp"
+image: "/assets/images/gen/content/drop.webp"
 
 hero:
   enabled: false
@@ -23,7 +23,7 @@ hero:
         fa_icon: false
         size: large
 ---
-> Embracing sustainability is increasingly becoming a prerequisite for business operations.
+<!-- > Embracing sustainability is increasingly becoming a prerequisite for business operations. -->
 
 # Our Mission
 SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come.
@@ -40,7 +40,7 @@ At SonoMicro, we understand the importance of achieving sustainability goals wit
 
 Our marketing strategy involves building strong relationships with our target audience through industry events, trade shows, content marketing, social media, online advertising, strategic partnerships, and sharing customer success stories. We strive to establish ourselves as a trusted partner for businesses seeking to address the global water crisis and contribute to a sustainable future.
 
-As a forward-thinking company, SonoMicro is driven by the belief that efficient water management is essential for the success of businesses and the environment. Our mission is to support managers and companies in embracing sustainable practices, making a lasting positive impact on the world we all share. Together, we can create a future where responsible water management is the standard, not the exception.
+As a forward-thinking company, SonoMicro is driven by the belief that efficient water management is essential for the success of businesses and the environment. Our mission is to support managers, engineers and companies in embracing sustainable practices, making a lasting positive impact on the world we all share. Together, we can create a future where responsible water management is the standard, not the exception.
 
 
 ## Our Commitment to the UN Sustainable Development Goals

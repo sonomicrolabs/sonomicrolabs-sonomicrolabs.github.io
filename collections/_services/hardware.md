@@ -1,6 +1,6 @@
 ---
-title: "Our Custom Designed Hardware"
-description: "Our service offers non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
+title: "In-House Designed Hardware"
+description: "Our service offers non-invasive, portable, and simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
 date: 2017-11-28T15:14:54+10:00
 weight: 1
 header_transparent: true
@@ -47,3 +47,9 @@ Our hardware leverages existing cellular infrastructure for data transmission, e
 
 # Experience the SonoMicro Advantage
 Choose SonoMicro for a meticulously designed, non-invasive hardware solution that simplifies water management, promotes sustainability, and contributes to a greener future while minimizing disruptions to your operations.
+
+# Sponsor
+
+This product development is sponsored by Rannís, Icelandic Technology Fund. 
+
+{% include framework/shortcodes/figure.html src="assets/images/gen/content/rannis_logo.webp" link="https://www.rannis.is/" target="_blank" rel="noopener" %}
