@@ -110,13 +110,13 @@ outro:
         size: "large"
 
 posts:
-  enabled: false
+  enabled: true
   heading: "Latest Posts"
   sub_heading: ""
-  limit: 3
-  columns: 3
+  limit: 1
+  columns: 1
   sort: "weight" # 'date'
-  view_more_button_text: "View All Posts"
-  view_more_button_link: "/blog"
+  #view_more_button_text: "View All Posts"
+  #view_more_button_link: "/blog"
   prevent_click: false
 ---

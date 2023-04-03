@@ -122,7 +122,7 @@ fonts:
   logo: "Lato"
 
 logo:
-  logo_text: "SonoMicro Labs"
+  logo_text: "SonoMicro"
   logo_image: assets/images/logo/logo.png
   logo_image_mobile: assets/images/logo/logo-mobile.png
   logo_image_invert: assets/images/logo/logo-invert.png

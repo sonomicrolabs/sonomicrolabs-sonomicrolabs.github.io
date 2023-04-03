@@ -6,7 +6,7 @@ main:
     url: /services/
     weight: 1
     child:
-      - name: "Custom Alarms"
+      - name: "Alarms"
         url: /services/custom-alarms/
       - name: "Measurement Hardware"
         url: /services/hardware/
