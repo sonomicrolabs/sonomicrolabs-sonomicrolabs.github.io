@@ -60,7 +60,7 @@
           </li>
         
           <li class="menu-item-request quote">
-            <a href="">Request Quote</a>
+            <a href="/contact">Request Quote</a>
           </li>
         
       </ul>
@@ -280,7 +280,7 @@
       
         
         <li class="">
-          <a href="">Request Quote</a>
+          <a href="/contact">Request Quote</a>
         </li>
       
     
@@ -370,29 +370,127 @@
     <div class="row justify-content-start">
       <div class="col-12 col-lg-8">
         
-          <div class="contact">
-  <form action="/contact/success" data-netlify="true" method="POST" name="contact">
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjezqrk" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="company-name">Company</label>
+    <input type="text" name="name" id="company-name" placeholder="Optional">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="Your Email" required="" style="color: black;">
+    <label for="message">Your Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Get in touch to express your interest, request a free demo or request a quote for your project." required="" style="color: black;"></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" style="color: black;">
+  </fieldset>
+  <input type="submit" value="Submit" style="color: black;">
+</form><style>/* reset */
 
-  <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
-  </div>
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
 
-  <div class="form-group">
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email..">
-  </div>
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(255,255,255,0.9);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: gray;
+  outline-offset: -1px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+}
 
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
 
-  <div class="form-group">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
-  </div>
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
 
-  <input class="button" type="submit" value="Submit">
-
-  </form>
-</div>
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
+}
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
+}
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
+}
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
+}
+</style>
         
       </div>
       <div class="col-12 col-lg-4">

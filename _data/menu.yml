@@ -37,7 +37,7 @@ main:
     url: /about/
     weight: 5
   - name: Request Quote
-    url: 
+    url: "/contact"
     weight: 6
 footer_primary:
   - name: Home

@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "SonoMicro"
-description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
+description: "Benefit from our innovative water data collection solutions, providing your business with actionable insights to make data-guided choices for sustainability."
 header_transparent: true
 meta_title: SonoMicro
 
@@ -22,14 +22,14 @@ hero:
     enabled: true
     list:
       - text: "Request Quote"
-        url: ""
-        external: true
+        url: "/contact"
+        external: false
         fa_icon: false
         size: large # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
       - text: "Contact Us"
-        url: ""
+        url: "/contact"
         external: false
         fa_icon: false
         size: large

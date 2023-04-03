@@ -1,14 +1,16 @@
-<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="{{ site.contact_form.formspree_endpoint }}" method="post">
+<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mbjezqrk" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="company-name">Company</label>
+    <input type="text" name="name" id="company-name" placeholder="Optional">
     <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    <input type="email" name="_replyto" id="email-address" placeholder="Your Email" required="" style="color: black;">
+    <label for="message">Your Message</label>
+    <textarea rows="5" name="message" id="message" placeholder="Get in touch to express your interest, request a free demo or request a quote for your project." required="" style="color: black;"></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" style="color: black;">
   </fieldset>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" style="color: black;">
 </form><style>/* reset */
 
 #fs-frm input,

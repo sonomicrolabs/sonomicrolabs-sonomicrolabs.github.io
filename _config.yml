@@ -161,9 +161,9 @@ mailchimp:
   form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
 
 contact_form: 
-  use_netlify_form: true
-  use_formspree_form: false
-  formspree_endpoint: https://formspree.io/f/moqyklqv
+  use_netlify_form: false
+  use_formspree_form: true
+  formspree_endpoint: https://formspree.io/f/mbjezqrk
   netlify_form_name: "contact"
 
 menu: 
