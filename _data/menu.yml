@@ -62,6 +62,9 @@ footer_secondary:
   - name: Contact
     url: /contact/
     weight: 2
+  - name: Equality and Sustainability
+    url: /equality_and_sustainablility_policy/
+    weight: 2
 footer_tertiary:
   - name: Privacy Policy
     url: /privacy-policy/
