@@ -38,6 +38,11 @@ defaults:
     values:
       layout: service
 #  - scope:
+#    path: ""
+#    type: FAQ
+#    values:
+#    layout: basic
+#  - scope:
 #      path: ""
 #      type: projects
 #    values:

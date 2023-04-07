@@ -33,9 +33,13 @@ main:
   #- name: Blog
   #  url: /blog/
   #  weight: 4
+  - name: FAQ
+    url: /FAQ/
+    weight: 4
   - name: About
     url: /about/
     weight: 5
+  
   - name: Request Quote
     url: "/contact"
     weight: 6
@@ -75,6 +79,10 @@ footer_tertiary:
   - name: Request quote
     url: 
     weight: 3
+  - name: Frequently asked questions
+    url: /FAQ
+    weight: 4
+
 bottom:
   - name: Privacy Policy
     url: /privacy-policy/
