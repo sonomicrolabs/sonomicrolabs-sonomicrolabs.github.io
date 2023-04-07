@@ -51,11 +51,11 @@ intro:
   align: left
   image: "/assets/images/gen/content/drop-data.webp"
   heading: "Welcome to SonoMicro, your partner in sustainable water management solutions."
-  sub_heading: "Our cutting-edge, non-invasive sub-metering hardware and intuitive digital platform empower data-driven decisions to optimize water use and reduce waste. Focused on mid-sized European companies subject to the EU Corporate Sustainability Reporting Directive (CSRD), we offer tailored services to help you achieve sustainability goals within budget constraints. Join us in revolutionizing water management and fostering a greener future. Experience the SonoMicro advantage today."
+  sub_heading: "Our advanced sub-metering technology and digital platform enable data-driven optimization of water use for European companies subject to the EU CSRD. Experience the SonoMicro advantage with our customer-centered services. Experience the SonoMicro advantage today."
   features:
     enabled: true
     list:
-      - text: "Accurate, real-time measurements of water flow for efficient water consumption monitoring"
+      - text: "Autonomous, real-time measurements of water flow for efficient water consumption monitoring, helping you meet CSRD regulatory requirements."
         fa_icon: "fas fa-check"
       - text: "Seamless integration and user-friendly interface for easy implementation and data visualization."
         fa_icon: "fas fa-check"

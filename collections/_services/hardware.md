@@ -1,6 +1,6 @@
 ---
 title: "In-House Designed Hardware"
-description: "Our service offers non-invasive, portable, and simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
+description: "Our service offers access to non-invasive, portable, and simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
 date: 2017-11-28T15:14:54+10:00
 weight: 1
 header_transparent: true
@@ -12,7 +12,7 @@ image: "/assets/images/gen/services/service-1.webp"
 hero:
   enabled: true
   heading: "Proprietary Hardware"
-  sub_heading: "Our service offers non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
+  sub_heading: "Our services offers access to non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
