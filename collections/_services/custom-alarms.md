@@ -3,7 +3,7 @@
 
 title: "Alarm Service"
 #description: "Experience the convenience of leasing our cutting-edge hardware while maintaining full ownership of your data and adhering to capital expenditure budget constraints. Together, we'll analyze your water consumption data, uncovering inefficiencies and guiding you towards achieving your sustainability goals."
-description: "SonoMicro offers customized alarm configurations to promptly detect and alert clients to unusual water flow anomalies or significant deviations from standard patterns, ensuring swift response and protection from potential concerns."
+description: "SonoMicro offers tailored alarm configurations to promptly detect and alert clients to unusual water flow anomalies or significant deviations from standard patterns, ensuring swift response and protection from potential concerns."
 date: 2018-11-28T15:15:34+10:00
 weight: 2
 header_transparent: true
