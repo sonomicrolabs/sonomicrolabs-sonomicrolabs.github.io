@@ -3,11 +3,11 @@ layout: post
 title: "How Sonomicro's Water Data Collection Solutions Can Support the EU's Water Security Commitments"
 date: 2023-04-03
 authors: ["Daniel Sigtryggsson"]
-categories: ["Product",  "Water Crisis"]
+categories: ["Product",  "Water-Crisis"]
 description: "Sonomicro provides innovative water data collection solutions that help businesses make actionable, data-guided choices for sustainability. With the EU announcing 33 commitments for global water security, Sonomicro's solutions can play a key role in addressing some of these commitments."
 thumbnail: "/assets/images/gen/blog/blog-6-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-6.webp"
-weight: 1
+weight: 2
 ---
 
 Sonomicro provides innovative water data collection solutions that help businesses make actionable, data-guided choices for sustainability. With the EU announcing 33 commitments for global water security, Sonomicro's solutions can play a key role in addressing some of these commitments.
@@ -26,5 +26,6 @@ Sonomicro's Role in Supporting the EU's Water Security Commitments Sonomicro's w
 # Conclusion
 As the EU takes action towards global water security, Sonomicro's water data collection solutions can provide businesses with the insights they need to make data-guided choices for sustainability. By promoting water efficiency and circularity, Sonomicro's solutions align with the EU's priorities and can play a key role in addressing the water crisis.
 
-Learn more about EU's 33 water security commitments.
-https://ec.europa.eu/commission/presscorner/detail/en/IP_23_1790?pk_source=ec_newsroom&pk_medium=email&pk_campaign=MARE%20Newsletter
+- Learn more about EU's 33 water security commitments.
+
+ https://ec.europa.eu/commission/presscorner/detail/en/IP_23_1790?pk_source=ec_newsroom&pk_medium=email&pk_campaign=MARE%20Newsletter

@@ -114,10 +114,10 @@ posts:
   enabled: true
   heading: "Latest Posts"
   sub_heading: ""
-  limit: 1
-  columns: 1
-  sort: "weight" # 'date'
-  #view_more_button_text: "View All Posts"
-  #view_more_button_link: "/blog"
+  limit: 2
+  columns: 2
+  sort:  'weight' # "weight" # 'date'
+  view_more_button_text: "View All Posts"
+  view_more_button_link: "/blog"
   prevent_click: false
 ---
