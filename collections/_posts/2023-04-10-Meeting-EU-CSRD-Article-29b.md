@@ -3,11 +3,12 @@ layout: post
 title: "Embrace Sustainable Water Management with SonoMicro: Meeting EU CSRD Article 29b Requirements"
 date: 2023-04-10
 authors: ["Daniel Sigtryggsson"]
-categories: ["Product",  "CSRD"]
-description: "Sonomicro provides innovative water data collection solutions that help businesses make actionable, data-guided choices for sustainability. With the EU announcing 33 commitments for global water security, Sonomicro's solutions can play a key role in addressing some of these commitments."
+categories: [Product, CSRD]
+description: "Revolutionizing Water Consumption Monitoring and Sustainability for Mid-Sized European Companies. Meeting EU CSRD Article 29b(2)(a)(iii) Requirements"
 thumbnail: "/assets/images/gen/blog/blog-19-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-19.webp"
-weight: 2
+comments: false
+weight: 1
 ---
 
 ## Navigating the EU CSRD Landscape
@@ -29,4 +30,4 @@ Affordable and Accessible Solutions for Mid-Sized Companies At SonoMicro, we bel
 Our Commitment to the United Nations Sustainable Development Goals (SDGs) SonoMicro is dedicated to creating a sustainable future by aligning our mission and operations with key United Nations SDGs, including SDG 6: Clean Water and Sanitation, SDG 9: Industry, Innovation, and Infrastructure, and SDG 12: Responsible Consumption and Production.
 
 # Embracing the Sustainable Water Management Revolution
-Join the Sustainable Water Management Revolution with SonoMicro With SonoMicro's innovative solutions, mid-sized European companies can easily comply with EU CSRD Article 29b(2)((iii), transforming their water management practices to promote sustainability and minimize environmental impact. Partner with SonoMicro to embrace responsible water management and contribute to a greener future for all.
+Join the Sustainable Water Management Revolution with SonoMicro With SonoMicro's innovative solutions, mid-sized European companies can easily comply with EU CSRD Article 29b(2)(iii), transforming their water management practices to promote sustainability and minimize environmental impact. Partner with SonoMicro to embrace responsible water management and contribute to a greener future for all.

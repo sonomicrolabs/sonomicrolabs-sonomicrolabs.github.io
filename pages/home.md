@@ -116,7 +116,7 @@ posts:
   sub_heading: ""
   limit: 2
   columns: 2
-  sort:  'weight' # "weight" # 'date'
+  sort:  'date' # "weight" # 'date'
   view_more_button_text: "View All Posts"
   view_more_button_link: "/blog"
   prevent_click: false
