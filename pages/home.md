@@ -8,7 +8,7 @@ meta_title: SonoMicro
 
 hero:
   enabled: true
-  heading: "We Empowering Your Water Sustainability Journey"
+  heading: "We Empower Your Water Sustainability Journey"
   #sub_heading: "Benefit from our water metering solution, providing your business with actionable insights to make data-guided choices for sustainability."
   sub_heading: "Unlock Data-Driven Water Sustainability with Our Non-Invasive Sub-Metering Solutions."
   text_color: "#FFFFFF"
