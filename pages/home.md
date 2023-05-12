@@ -8,9 +8,9 @@ meta_title: SonoMicro
 
 hero:
   enabled: true
-  heading: "SonoMicro"
+  heading: "Empowering Your Water Sustainability Journey"
   #sub_heading: "Benefit from our water metering solution, providing your business with actionable insights to make data-guided choices for sustainability."
-  sub_heading: "Are you facing EU CSRD water usage reporting requirements? Our sub-metering hardware and digital solutions provide a cost-effective, non-invasive approach, enabling efficient monitoring and data-driven sustainability decisions. "
+  sub_heading: " Unlock Data-Driven Water Sustainability with Our Non-Invasive Sub-Metering Solutions. "
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
