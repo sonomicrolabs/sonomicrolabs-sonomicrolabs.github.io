@@ -44,18 +44,21 @@ main:
     url: "/contact"
     weight: 6
 footer_primary:
-  - name: Home
-    url: /
-    weight: 1
-  - name: Services
-    url: /services/
+  - name: "Alarms"
+    url: /services/custom-alarms/
     weight: 2
+  - name: "OEM"
+    url: /services/OEM/
+  - name: "Licencing model"
+    url: /services/licensing-model/
+    name: "Resources Optimization"
+    url: /services/asset-optimization/
+  - name: "Measurement Hardware"
+    url: /services/hardware/
   #- name: Projects
   #  url: /projects/
   #  weight: 3
-  - name: Team
-    url: /team/
-    weight: 4
+  
 footer_secondary:
 # - name: Blog
 #    url: /blog/
@@ -63,19 +66,22 @@ footer_secondary:
   - name: About
     url: /about/
     weight: 1
+  - name: Team
+    url: /team/
+    weight: 2
   - name: Contact
     url: /contact/
-    weight: 2
+    weight: 3
   - name: Equality and Sustainability
     url: /equality_and_sustainablility_policy/
-    weight: 2
+    weight: 4
 footer_tertiary:
-  - name: Privacy Policy
-    url: /privacy-policy/
-    weight: 1
-  - name: Terms and Conditions
-    url: /terms-and-conditions/
-    weight: 2
+  #- name: Privacy Policy
+  #  url: /privacy-policy/
+  #  weight: 1
+  #- name: Terms and Conditions
+  #  url: /terms-and-conditions/
+  #  weight: 2
   - name: Request quote
     url: 
     weight: 3

@@ -19,7 +19,7 @@ hero:
   fullscreen_desktop: false
   height: "330px"
   buttons:
-    enabled: false
+    enabled: true
     list:
       - text: "Contact Us"
         url: "/contact"
@@ -36,11 +36,11 @@ grid:
   prevent_click: false
 
 intro:
-  enabled: false
+  enabled: true
   align: left
   image: false
-  heading: "We are a full service digital agency"
-  sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sapien in elit semper accumsan. Pellentesque accumsan ut tortor eu varius. Sed id tincidunt massa, ut egestas orci."
+  heading: "We are a technology startup in the smart metering space"
+  sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
   buttons:
     enabled: false
     list:
@@ -51,7 +51,7 @@ intro:
         size: normal
 
 outro:
-  enabled: false
+  enabled: true
   align: left
   image: false
   heading: "Ready to get started?"
