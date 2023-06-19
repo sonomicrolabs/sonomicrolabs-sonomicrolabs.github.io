@@ -1,6 +1,6 @@
 ---
 title: "Daniel Bergmann Sigtryggsson"
-date: 2018-12-20T13:44:30+10:00
+date: 2023-06-19T13:44:30+10:00
 weight: 2
 description: "Daniel is responsible for all things product development and testing. He also takes care of business operations and fundraising"
 thumbnail: "/assets/images/team/robert-johnson-thumbnail.jpg"
