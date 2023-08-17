@@ -1,5 +1,7 @@
 ---
 title: "Daniel Bergmann Sigtryggsson"
+layout: team-member
+header_transparent: true
 date: 2023-06-19T13:44:30+10:00
 weight: 2
 description: "Daniel is responsible for all things product development and testing. He also takes care of business operations and fundraising"
@@ -10,10 +12,52 @@ links:
   - url: "https://www.linkedin.com/in/danielbergmann1/"
     label: LinkedIn
     icon: "fab fa-linkedin"
-  - url: "https://www.linkedin.com/in/danielbergmann1/"
-    label: Github
-    icon: "fab fa-github"
----
-Daniel is a distinguished electronics engineer and an inventive product designer who has made notable contributions to the industry over the past ten years. His creativity and expertise have been pivotal in the successful realization of numerous industry projects, including cutting-edge smart price labels, sophisticated underwater robotics, and state-of-the-art food processing machinery.
+  - #url: "https://www.linkedin.com/in/danielbergmann1/"
+    #label: Github
+    #icon: "fab fa-github"
+hero:
+  enabled: true
+  heading: "Meet the Team"
+  sub_heading: ""
+  text_color: "#FFFFFF"
+  background_color: ""
+  background_gradient: true
+  background_image: false
+  background_image_blend_mode: overlay # "overlay", "multiply", "screen"
+  fullscreen_mobile: false
+  fullscreen_desktop: false
+  height: "330px"
+  buttons:
+    enabled: true
+    list:
+      - text: "Contact Us"
+        url: "/contact"
+        external: false
+        fa_icon: false
+        size: large
+        outline: true
+        style: "light"
 
-Daniel brings with him a robust academic foundation, having earned a Bachelor's degree in Mechatronics Engineering from Reykjavik University and a Master of Engineering degree with a focus on Computer and Electronics from Griffith University in Brisbane, Australia. Following his academic pursuits, Daniel has shown an enduring commitment to enhancing his abilities in hardware design and product development. This commitment is reflected in his continual engagement with unique design challenges, his assiduous efforts to acquire new skills, and his constant endeavours to stay up-to-date with the most recent advancements in engineering literature.
+grid:
+  collection: "team"
+  sort_by: "weight" # "date", "weight"
+  columns: 3
+  prevent_click: false
+
+---
+Daniel, stands as an eminent electronics engineer and an innovative product designer. Over a decade, his influential contributions have been felt across the industry. His ingenious flair and profound knowledge played instrumental roles in materializing a spectrum of industry projects. These span from avant-garde smart price labels to sophisticated underwater robotics and cutting-edge food processing equipment.
+
+**Areas of Expertise**: 
+- Electronics Engineering
+- Product Design 
+- Hardware Design 
+- Embedded Software Design
+- Underwater Robotics
+- Food Processing Equipment Design 
+
+**Educational Background**: 
+- Bachelor’s Degree in Mechatronics Engineering, Reykjavik University
+- Master of Engineering, focusing on Computer and Electronics, Griffith University, Brisbane, Australia
+
+**Personal Interests**:
+An enthusiast of physical exercise, Daniel takes pleasure in running, weightlifting, and mobility routines. Beyond his professional commitments, he deeply values his role as a family man. Cherishing moments with his two toddlers and his wife, Daniel revels in creating beautiful memories with his family.

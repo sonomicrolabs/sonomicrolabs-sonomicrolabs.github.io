@@ -1,0 +1,123 @@
+---
+layout: default
+body_classes: page-team
+---
+
+{% if page.hero.enabled %}
+  {% include framework/blocks/sections/hero.html 
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
+    background_image=page.hero.background_image
+    background_image_blend_mode=page.hero.background_image_blend_mode
+    background_color=page.hero.background_color
+    background_gradient=page.hero.background_gradient
+    text_color=page.hero.text_color
+    fullscreen_mobile=page.hero.fullscreen_mobile
+    fullscreen_desktop=page.hero.fullscreen_desktop
+    height=page.hero.height
+    buttons=page.hero.buttons
+  %}
+{% endif %}
+
+<div class="section">
+  <div class="container">
+    {% if page.image and page.image != "" %}
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="team-image">
+            <img class="img-fluid" {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}"/>
+          </div>
+        </div>
+        
+        <div class="col-12 {% if page.image and page.image != "" %}col-md-6{% else %}col-md-10{% endif %}">
+            <div class="team-header">
+                {% if page.title %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+                
+                {% if page.description %}
+                    <p>{{ page.description }}</p>
+                {% endif %}
+
+                <div class="team-meta">
+                    {% if page.description %}
+                        <div class="team-jobtitle">{{ page.jobtitle }}</div>
+                    {% endif %}
+    
+                    {% if page.links %}
+                    <div class="team-links">
+                        {% for link in page.links %}
+                            {% if link.icon %}
+                                <a href="{{ link.url }}">
+                                    <i class="{{ link.icon }}"></i>
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="content">{{ content }}</div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% assign cards = site[page.grid.collection] | sort: 'date' | reverse %}
+{% assign limit = page.grid.limit | default: nil %}
+{% assign sort_by = page.grid.sort_by | default: 'date' %}
+{% assign columns =  page.grid.columns | default: 3 %}
+{% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
+{% if sort_by == 'weight' %}
+  {% assign cards = cards | sort: 'weight' %}
+{% endif %}
+{% assign card_type = page.grid.collection %}
+
+{% if cards.size > 0 %}
+<div class="section">
+  <div class="container">
+    <h2>Meet the rest of the team</h2>
+    <div class="row">
+
+      {% include framework/blocks/components/grid-header.html
+        heading=page.grid.heading
+        sub_heading=page.grid.sub_heading
+        align="center"
+      %}
+      
+      {% for card in cards limit: limit %}
+         {% if card.title != page.title %}
+        {% assign url = card.url %}
+        {% if page.grid.prevent_click %}
+          {% assign url = null %}
+        {% endif %}
+        
+        <div class="col-12 col-md-4 {{ columns }} {% if forloop.first %}mt-0{% endif %} {% if forloop.last %}mb-0{% endif %} mb-3 mb-md-6">
+          {% include theme/cards/card-{{ card_type | strip }}.html
+            title=card.title 
+            description=card.description
+            fa_icon=card.fa_icon
+            icon=card.icon
+            thumbnail=card.thumbnail
+            image=card.image
+            url=url 
+            weight=card.weight
+            jobtitle=card.jobtitle
+            links=card.links
+          %}
+        </div>
+        {% endif %}
+      {% endfor %}
+
+      {% include framework/blocks/components/grid-footer.html 
+        view_more_button_text=page.grid.view_more_button_text
+        view_more_button_link=page.grid.view_more_button_link
+        align="right"
+      %}
+
+    </div>
+  </div>
+</div>
+{% endif %}

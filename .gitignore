@@ -1,0 +1,22 @@
+# Jekyll generated
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Backup and temporary files
+*~
+*.bak
+
+# Local configuration
+_config.dev.yml
+
+# Bundler config
+.bundle
+
+# Node modules if using any Node-based tools
+node_modules/
+
+# OS generated
+.DS_Store
+Thumbs.db
+

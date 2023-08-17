@@ -8,7 +8,7 @@ header_transparent: true
 
 hero:
   enabled: true
-  heading: "Our Team"
+  heading: "Meet the Team"
   sub_heading: ""
   text_color: "#FFFFFF"
   background_color: ""
