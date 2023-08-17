@@ -9,7 +9,7 @@ thumbnail: "/assets/images/team/hildur-thumbnail.jpeg"
 image: "/assets/images/team/hildur-thumbnail.jpeg"
 jobtitle: "Advisory boardmember"
 links:
-  - url: "https://www.linkedin.com/in/danielbergmann1/"
+  - url: "https://www.linkedin.com/in/hildurhauksdottir/"
     label: LinkedIn
     icon: "fab fa-linkedin"
   - #url: "https://www.linkedin.com/in/danielbergmann1/"
