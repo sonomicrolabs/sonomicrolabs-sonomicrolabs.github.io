@@ -5,8 +5,8 @@ title: "Kristjan Gudmundsson"
 date: 2023-08-16T13:44:30+10:00
 weight: 3
 description: "Kristjan is in charge of business strategy and outreach"#
-thumbnail: "/assets/images/team/mike-vance-thumbnail.jpg"
-image: "/assets/images/team/mike-vance.jpg"
+thumbnail: "/assets/images/team/Kristjan.jpeg"
+image: "/assets/images/team/Kristjan.jpeg"
 jobtitle: "Business Strategist / Senior Advisor"
 links:
   - url: "https://www.linkedin.com/in/gudmundsson/"
