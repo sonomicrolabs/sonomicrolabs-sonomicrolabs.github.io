@@ -39,7 +39,7 @@ intro:
   enabled: true
   align: left
   image: false
-  heading: "We are a technology startup in the smart metering space"
+  heading: "We are a technology startup in the smart water management space"
   sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
   buttons:
     enabled: false
