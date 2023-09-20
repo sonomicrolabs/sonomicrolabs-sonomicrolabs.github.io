@@ -5,8 +5,8 @@ header_transparent: true
 date: 2023-06-19T13:44:30+10:00
 weight: 2
 description: "Daniel is responsible for all things product development and testing. He also takes care of business operations and fundraising"
-thumbnail: "/assets/images/team/robert-johnson-thumbnail.jpg"
-image: "/assets/images/team/robert-johnson.jpg"
+thumbnail: "/assets/images/team/daniel-thumbnail.jpg"
+image: "/assets/images/team/daniel.jpg"
 jobtitle: "Founder/Director/Technical architect"
 links:
   - url: "https://www.linkedin.com/in/danielbergmann1/"
