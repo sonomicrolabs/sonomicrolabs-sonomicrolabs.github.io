@@ -1,5 +1,7 @@
 ---
 layout: contact
-title: Contact
+title: Get in touch.
 body_classes: page-contact
 ---
+
+Get in touch to discuss your use case, our pricing, or for any technical questions.

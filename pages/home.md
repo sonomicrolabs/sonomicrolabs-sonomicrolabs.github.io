@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "SonoMicro"
-description: "Benefit from our innovative water data collection solutions, providing your business with actionable insights to make data-guided choices for sustainability."
+description: "Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability."
 header_transparent: true
 meta_title: SonoMicro
 
@@ -10,7 +10,7 @@ hero:
   enabled: true
   heading: "We Empower Your Water Sustainability Journey"
   #sub_heading: "Benefit from our water metering solution, providing your business with actionable insights to make data-guided choices for sustainability."
-  sub_heading: "Unlock Data-Driven Water Sustainability with Our Non-Invasive Sub-Metering Solutions."
+  sub_heading: "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
   background_gradient: true
@@ -56,6 +56,8 @@ intro:
   features:
     enabled: true
     list:
+      - text: "No process interruption nor downtime needed and runs without affecting flow pressure."
+        fa_icon: "fas fa-check"  
       - text: "Autonomous, real-time measurements of water flow for efficient water consumption monitoring, helping you meet CSRD regulatory requirements."
         fa_icon: "fas fa-check"
       - text: "Seamless integration and user-friendly interface for easy implementation and data visualization."

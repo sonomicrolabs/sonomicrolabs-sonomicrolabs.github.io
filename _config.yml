@@ -178,7 +178,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "SonoMicro Labs"
-  footer_description: "Benefit from our innovative water data collection solutions, equipping your business to make data-guided choices for sustainability."
+  footer_description: "Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability."
   enable_social_media_icons: true
   enable_contact_details: true
   enable_menu_footer_primary: true

@@ -40,7 +40,7 @@ main:
     url: /about/
     weight: 5
   
-  - name: Request Quote
+  - name: Get in touch
     url: "/contact"
     weight: 6
 footer_primary:
@@ -82,9 +82,9 @@ footer_tertiary:
   #- name: Terms and Conditions
   #  url: /terms-and-conditions/
   #  weight: 2
-  - name: Request quote
-    url: 
-    weight: 3
+  #- name: Contact us
+  #  url: 
+  # weight: 3
   - name: Frequently asked questions
     url: /FAQ
     weight: 4
