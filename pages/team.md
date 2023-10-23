@@ -32,7 +32,7 @@ hero:
 grid:
   collection: "team"
   sort_by: "weight" # "date", "weight"
-  columns: 4
+  columns: 3
   prevent_click: false
 
 intro:
