@@ -3,10 +3,14 @@ layout: default
 body_classes: page-team
 ---
 
+{% assign hero_heading = site.data[page.lang].service.hero.heading %}
+{% assign hero_sub_heading = site.data[page.lang].service.hero.sub_heading %}
+{% assign hero_buttons = site.data[page.lang].service.hero.buttons %}
+
 {% if page.hero.enabled %}
   {% include framework/blocks/sections/hero.html 
-    heading=page.hero.heading
-    sub_heading=page.hero.sub_heading
+    heading=hero_heading
+    sub_heading=hero_sub_heading
     background_image=page.hero.background_image
     background_image_blend_mode=page.hero.background_image_blend_mode
     background_color=page.hero.background_color
@@ -15,7 +19,7 @@ body_classes: page-team
     fullscreen_mobile=page.hero.fullscreen_mobile
     fullscreen_desktop=page.hero.fullscreen_desktop
     height=page.hero.height
-    buttons=page.hero.buttons
+    buttons=hero_buttons
   %}
 {% endif %}
 
@@ -78,7 +82,7 @@ body_classes: page-team
 {% if cards.size > 0 %}
 <div class="section">
   <div class="container">
-    <h2>Meet the rest of the team</h2>
+    <h2>{{ site.data[page.lang].team.meet_the_team }}</h2>
     <div class="row">
 
       {% include framework/blocks/components/grid-header.html

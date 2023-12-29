@@ -6,6 +6,7 @@ header_transparent: true
 permalink: "/about/"
 description: "Empowering Sustainability Through Advanced Water Monitoring."
 image: "/assets/images/gen/content/drop.webp"
+lang: en
 
 hero:
   enabled: false

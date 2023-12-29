@@ -1,24 +1,26 @@
 ---
 layout: list
-title: Services
-description: "A selection of our digital services"
-permalink: "/services/"
+title: "Team"
+description: "Meet our dedicated team."
+permalink: "/team/"
+date: 2018-02-12T15:37:57+07:00
 header_transparent: true
+lang: is
 
 hero:
   enabled: true
-  heading: "Services"
-  sub_heading: "We offer a comprehensive, sustainable water management solutions ."
+  heading: "Meet the Team"
+  sub_heading: ""
   text_color: "#FFFFFF"
-  background_color: false
+  background_color: ""
   background_gradient: true
-  background_image: "/assets/images/gen/home/home-8-large.webp"
+  background_image: false
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "500px"
+  height: "330px"
   buttons:
-    enabled: false
+    enabled: true
     list:
       - text: "Contact Us"
         url: "/contact"
@@ -29,17 +31,18 @@ hero:
         style: "light"
 
 grid:
-  collection: "services"
+  collection: "team"
   sort_by: "weight" # "date", "weight"
   columns: 3
   prevent_click: false
+  meet_the_team: "Meet the rest of the team"
 
 intro:
   enabled: true
   align: left
   image: false
-  heading: "Sustainable Water Management Solutions for Businesses."
-  sub_heading: "Our hardware and digital platform provide actionable data to optimize water use, reduce waste, and our team provides consultations to help your business achieve its sustainability goals while adhering to budget constraints. Join us in revolutionizing water management and fostering a greener future."
+  heading: "We are a technology startup in the smart water management space"
+  sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
   buttons:
     enabled: false
     list:

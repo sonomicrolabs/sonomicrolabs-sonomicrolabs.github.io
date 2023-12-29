@@ -8,6 +8,7 @@ fa_icon: "far fa-chart-bar"
 icon: "assets/images/icons/icons8-bar-chart-100.png"
 thumbnail: "/assets/images/gen/services/service-5-thumbnail.webp"
 image: "/assets/images/gen/services/service-5.webp"
+lang: en
 
 hero:
   enabled: true

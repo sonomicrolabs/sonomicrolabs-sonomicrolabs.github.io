@@ -11,7 +11,7 @@ icon: "assets/images/icons/icons8-bar-chart-100.png"
 #icon: "assets/images/icons/icons8-user-engagement-male-100.png"
 thumbnail: "/assets/images/gen/services/service-2-thumbnail.webp"
 image: "/assets/images/gen/services/service-2.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "Custom Alarms"

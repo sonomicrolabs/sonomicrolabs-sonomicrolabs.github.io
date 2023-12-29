@@ -4,6 +4,7 @@ title: "Frequently Asked Questions"
 date: 2023-07-04
 layout: basic
 permalink: "/FAQ/"
+lang: en
 ---
 <details>
  <summary>Q: What industries does SonoMicro cater to?</summary>

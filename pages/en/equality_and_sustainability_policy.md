@@ -3,6 +3,7 @@ title: "Equality and Sustainability Policy"
 date: 2024-04-3
 layout: basic
 permalink: "/equality_and_sustainablility_policy/"
+lang: en
 ---
 
 # Introduction

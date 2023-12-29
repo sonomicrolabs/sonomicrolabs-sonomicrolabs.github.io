@@ -3,6 +3,7 @@ title: "Terms and Conditions"
 date: 2021-24-01
 layout: basic
 permalink: "/terms-and-conditions/"
+lang: en
 ---
 
 Please read these terms and conditions carefully before using Our Service.

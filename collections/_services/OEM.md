@@ -8,7 +8,7 @@ fa_icon: false
 icon: "assets/images/icons/icons8-design-100.png"
 thumbnail: "/assets/images/gen/services/service-4-thumbnail.webp"
 image: "/assets/images/gen/services/service-4.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "OEM Solution"

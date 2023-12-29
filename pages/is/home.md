@@ -5,10 +5,11 @@ title: "SonoMicro"
 description: "Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability."
 header_transparent: true
 meta_title: SonoMicro
+lang: is
 
 hero:
   enabled: true
-  heading: "We Empower Your Water Sustainability Journey"
+  heading: "þetta er íslenska síðan"
   #sub_heading: "Benefit from our water metering solution, providing your business with actionable insights to make data-guided choices for sustainability."
   sub_heading: "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions."
   text_color: "#FFFFFF"

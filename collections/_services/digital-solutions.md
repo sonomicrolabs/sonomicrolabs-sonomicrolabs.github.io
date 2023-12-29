@@ -8,7 +8,7 @@ fa_icon: "fab fa-codepen"
 icon: "assets/images/icons/icons8-source-code-100.png"
 thumbnail: "/assets/images/gen/services/service-6-thumbnail.webp"
 image: "/assets/images/gen/services/service-6.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "Digital Solutions"

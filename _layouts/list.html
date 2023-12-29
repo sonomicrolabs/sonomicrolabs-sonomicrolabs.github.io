@@ -4,9 +4,12 @@ body_classes: page-list
 ---
 
 {% if page.hero.enabled %}
-  {% include framework/blocks/sections/hero.html 
-    heading=page.hero.heading
-    sub_heading=page.hero.sub_heading
+{% assign hero_heading = site.data[page.lang].service.hero.heading %}
+{% assign hero_sub_heading = site.data[page.lang].service.hero.sub_heading %}
+{% assign hero_buttons = site.data[page.lang].service.hero.buttons %}
+  {% include framework/blocks/sections/hero.html
+    heading=hero_heading
+    sub_heading=hero_sub_heading
     background_image=page.hero.background_image
     background_image_blend_mode=page.hero.background_image_blend_mode
     background_color=page.hero.background_color
@@ -15,36 +18,48 @@ body_classes: page-list
     fullscreen_mobile=page.hero.fullscreen_mobile
     fullscreen_desktop=page.hero.fullscreen_desktop
     height=page.hero.height
-    buttons=page.hero.buttons
+    buttons=hero_buttons
   %}
 {% else %}
+{% assign contact_title = site.data[page.lang].contact.title %}
+{% assign contact_description = site.data[page.lang].contact.description %}
   {% include framework/blocks/sections/title.html 
     fa_icon=page.fa_icon
     icon=page.icon
-    title=page.title
-    description=page.description
+    title=contact_title
+    description=contact_description
     image=page.image
   %}
 {% endif %}
 
+<!-- Intro Section: Ensure all static text is set dynamically based on language -->
 {% if page.intro.enabled == true %}
+  {% assign intro_heading = site.data[page.lang].list.intro.heading %}
+  {% assign intro_sub_heading = site.data[page.lang].list.intro.sub_heading %}
+  {% assign intro_buttons = site.data[page.lang].list.intro.buttons %}
+  {% assign intro_features = site.data[page.lang].list.intro.features %}
+  {% assign intro_image = page.intro.image %}
+
   <div class="section bg-base-bg-2 strip-border-top">
     <div class="container">
       <div class="row">
         <div class="col-12">
           {% include framework/blocks/sections/info.html 
-            heading=page.intro.heading
-            sub_heading=page.intro.sub_heading
+            heading=intro_heading
+            sub_heading=intro_sub_heading
             align=page.intro.align
-            buttons=page.intro.buttons
-            features=page.intro.features
-            image=page.intro.image 
+            buttons=intro_buttons
+            features=intro_features
+            image=intro_image 
           %}
         </div>
       </div>
     </div>
   </div>
 {% endif %}
+
+<!-- The grid/cards section remains the same, unless it contains static text that needs translation -->
+
 
 {% assign cards = site[page.grid.collection] | sort: 'date' | reverse %}
 {% assign limit = page.grid.limit | default: nil %}
@@ -102,18 +117,25 @@ body_classes: page-list
 {% endif %}
 
 {% if page.outro.enabled == true %}
+  {% assign outro_heading = site.data[page.lang].list.outro.heading %}
+  {% assign outro_sub_heading = site.data[page.lang].list.outro.sub_heading %}
+  {% assign outro_description = site.data[page.lang].list.outro.description %}
+  {% assign outro_buttons = site.data[page.lang].list.outro.buttons %}
+  {% assign outro_features = site.data[page.lang].list.outro.features %}
+  {% assign outro_image = page.outro.image %}
+
   <div class="section bg-base-bg-2 strip-border-bottom">
     <div class="container">
       <div class="row">
         <div class="col-12">
           {% include framework/blocks/sections/info.html 
-            heading=page.outro.heading
-            sub_heading=page.outro.sub_heading
-            description=page.outro.description 
+            heading=outro_heading
+            sub_heading=outro_sub_heading
+            description=outro_description
             align=page.outro.align
-            buttons=page.outro.buttons
-            features=page.outro.features
-            image=page.outro.image 
+            buttons=outro_buttons
+            features=outro_features
+            image=outro_image 
           %}
         </div>
       </div>

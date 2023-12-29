@@ -8,7 +8,7 @@ fa_icon: false
 icon: "assets/images/icons/icons8-color-palette-100.png" #"assets/images/icons/icons8-source-code-100.png"
 thumbnail: "/assets/images/gen/services/service-1-thumbnail.webp"
 image: "/assets/images/gen/services/service-1.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "Proprietary Hardware"

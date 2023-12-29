@@ -15,6 +15,7 @@ links:
   - #url: "https://www.linkedin.com/in/gudmundsson/"
     #label: Github
     #icon: "fab fa-github"
+lang: en
 hero:
   enabled: true
   heading: "Meet the Team"

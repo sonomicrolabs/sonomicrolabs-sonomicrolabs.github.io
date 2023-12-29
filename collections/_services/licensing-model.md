@@ -8,7 +8,7 @@ fa_icon: false
 icon: "assets/images/icons/icons8-user-engagement-male-100.png" #"assets/images/icons/icons8-color-palette-100.png"
 thumbnail: "/assets/images/gen/services/service-3-thumbnail.webp"
 image: "/assets/images/gen/services/service-3.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "Licencing Model"
