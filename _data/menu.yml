@@ -41,7 +41,7 @@ main:
     weight: 5
   
   - name: Get in touch
-    url: "/contact"
+    url: /contact
     weight: 6
 footer_primary:
   - name: "Alarms"

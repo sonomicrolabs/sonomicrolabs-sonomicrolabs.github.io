@@ -3,15 +3,19 @@
 # --------------------
 name: "sonomicro"
 remote_theme: "sonomicrolabs/sonomicrolabs.github.io"
-baseurl: ""
-url: "https://www.sonomicro.com"
+url: "https://www.sonomicro.com/"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
 collections_dir: collections
-default_lang: is
-languages: ["en", "is"]
-exclude_from_localizations: ["assets/images", "assets/css", "assets/js", assets/fonts]
+languages: ["is","en"]
+defaultLang: is
+lang: is
+baseurl:
+languageNames:
+  is: Icelandic
+  en: English
+exclude_from_localizations: [ "CNAME"]
 
 # Plugins
 plugins:
@@ -25,7 +29,7 @@ paginate_path: "/blog/page/:num"
 collections:
   services:
     output: true
-    permalink: /:collection/:path/
+    permalink: /collection/:path/
   projects:
     output: false
     permalink: /:collection/:path/
@@ -133,10 +137,10 @@ fonts:
 
 logo:
   logo_text: "SonoMicro"
-  logo_image: assets/images/logo/logo.png
-  logo_image_mobile: assets/images/logo/logo-mobile.png
-  logo_image_invert: assets/images/logo/logo-invert.png
-  logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  logo_image: /assets/images/logo/logo.png
+  logo_image_mobile: /assets/images/logo/logo-mobile.png
+  logo_image_invert: /assets/images/logo/logo-invert.png
+  logo_image_invert_mobile: /assets/images/logo/logo-invert-mobile.png
   logo_image_desktop_height: "30px"
   logo_image_desktop_width: "132px"
   logo_image_mobile_height: "30px"

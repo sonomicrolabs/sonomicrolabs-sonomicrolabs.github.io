@@ -1,26 +1,25 @@
 {% capture header_classes %}
-  {% if site.header.align %}header-{{ site.header.align}} {% endif %}{% if site.header.fixed %}header-fixed {% endif %}{% if page.header_transparent %}header-transparent {% endif %}{{ page.header_classes }}
+{% if site.header.align %}header-{{ site.header.align}} {% endif %}{% if site.header.fixed %}header-fixed {% endif %}{%
+if page.header_transparent %}header-transparent {% endif %}{{ page.header_classes }}
 {% endcapture %}
-
 <div id="header" class='header {{ header_classes | strip }}'>
   <div class="container">
     {% include framework/global/header/logo.html %}
     {% include framework/global/menu/menu-main.html %}
     {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_header %}
-      {% include framework/blocks/components/dark-mode-switcher.html %}
+    {% include framework/blocks/components/dark-mode-switcher.html %}
     {% endif %}
     {% include framework/global/header/hamburger.html %}
 
-        <!-- Language Switcher Dropdown -->
-        <div class="language-switcher">
-          <div class="language-dropdown">
-              <a href="/en" class="language-option">
-                  <img src="/assets/images/flags/gb.svg" alt="English" style="width: 20px;"> English
-              </a>
-              <a href="/is/" class="language-option">
-                  <img src="/assets/images/flags/is.svg" alt="Icelandic" style="width: 20px;"> Íslenska
-              </a>
-          </div>
+    <div class="language-switcher">
+      <div class="language-dropdown">
+        <a href="/en" class="language-option">
+          <img src="/assets/images/flags/gb.svg" alt="English" style="width: 20px;"> English
+        </a>
+        <a href="/" class="language-option">
+          <img src="/assets/images/flags/is.svg" alt="Icelandic" style="width: 20px;"> Íslenska
+        </a>
       </div>
+    </div>
   </div>
 </div>

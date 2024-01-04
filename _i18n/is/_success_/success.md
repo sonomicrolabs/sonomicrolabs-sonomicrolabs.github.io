@@ -1,0 +1,1 @@
+## Skilaboðin voru send, við höfum samband við fyrsta tækifæri.

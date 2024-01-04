@@ -4,10 +4,6 @@ body_classes: page-home
 ---
 
 {% if page.hero.enabled %}
-{% assign hero_heading = site.data[page.lang].home.hero.heading %}
-{% assign hero_sub_heading = site.data[page.lang].home.hero.sub_heading %}
-{% assign hero_buttons = site.data[page.lang].home.hero.buttons %}
-
   {% include framework/blocks/sections/hero.html
     heading=page.hero.heading
     sub_heading=page.hero.sub_heading
@@ -19,20 +15,18 @@ body_classes: page-home
     fullscreen_mobile=page.hero.fullscreen_mobile
     fullscreen_desktop=page.hero.fullscreen_desktop
     height=page.hero.height
-    buttons=hero_buttons
+    buttons=page.hero.buttons
   %}
 {% else %}
-{% assign contact_title = site.data[page.lang].home.title %}
-{% assign contact_description = site.data[page.lang].home.description %}
   <div class="section">
     <div class="container">
-      {% include framework/blocks/sections/title.html
-        fa_icon=page.fa_icon
-        icon=page.icon
-        title=contact_title
-        description=contact_description
-        image=page.image
-      %}
+    {% include framework/blocks/sections/title.html
+      fa_icon=page.fa_icon
+      icon=page.icon
+      title=page.title
+      description=page.description
+      image=page.image
+    %}
     </div>
   </div>
 {% endif %}
@@ -50,8 +44,6 @@ body_classes: page-home
   <div class="section bg-base-bg-2">
     <div class="container">
       <div class="row">
-        {% assign hero_heading = site.data[page.lang].home.services.heading %}
-        {% assign hero_sub_heading = site.data[page.lang].home.services.sub_heading %}
 
         {% include framework/blocks/components/grid-header.html
           heading=page.services.heading

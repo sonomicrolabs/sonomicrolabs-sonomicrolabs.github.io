@@ -42,7 +42,7 @@
     <div class="row align-items-center">
       <div class="col-12 {% if image %}col-lg-6{% else %}col-lg-8{% endif %}">
         <div class="hero-text" style="{% if text_color %}color: {{ text_color }};{% endif %}">
-          {% if heading %}<h1>{{ heading }}</h1>{% endif %}
+          <h1>{{% t hero.heading %}}</h1>
           {% if sub_heading %}<p>{{ sub_heading }}</p>{% endif %}
           {% if buttons.enabled and buttons.list.size > 0 %}
             <div class="hero-buttons">

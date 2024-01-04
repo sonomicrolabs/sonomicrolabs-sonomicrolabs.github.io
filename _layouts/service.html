@@ -1,16 +1,12 @@
 ---
 layout: default
-body_classes: page-contact
+body_classes: page-service
 ---
-
-{% assign hero_heading = site.data[page.lang].service.hero.heading %}
-{% assign hero_sub_heading = site.data[page.lang].service.hero.sub_heading %}
-{% assign hero_buttons = site.data[page.lang].service.hero.buttons %}
 
 {% if page.hero.enabled %}
   {% include framework/blocks/sections/hero.html 
-    heading=hero_heading
-    sub_heading=hero_sub_heading
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
     background_image=page.hero.background_image
     background_image_blend_mode=page.hero.background_image_blend_mode
     background_color=page.hero.background_color
@@ -19,46 +15,39 @@ body_classes: page-contact
     fullscreen_mobile=page.hero.fullscreen_mobile
     fullscreen_desktop=page.hero.fullscreen_desktop
     height=page.hero.height
-    buttons=hero_buttons
+    buttons=page.hero.buttons
   %}
-  {% else %}
-  {% assign contact_title = site.data[page.lang].contact.title %}
-  {% assign contact_description = site.data[page.lang].contact.description %}
-  {% include framework/blocks/sections/title.html
-    fa_icon=page.fa_icon
-    icon=page.icon
-    title=contact_title
-    description=contact_description
-    image=page.image
-  %}
-{% endif %}
-
-{% assign content = content %}
-{% if content != "" %}
-  <div class="section pt-0">
+{% else %}
+  <div class="section">
     <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-12 col-lg-8">
-          <div class="content">{{ content }}</div>
-        </div>
-      </div>
+    {% include framework/blocks/sections/title.html
+      fa_icon=page.fa_icon
+      icon=page.icon
+      title=page.title
+      description=page.description
+      image=page.image
+    %}
     </div>
   </div>
 {% endif %}
 
-<div class="section pt-0">
+<div class="section">
   <div class="container">
-    <div class="row justify-content-start">
+    <div class="row">
+
       <div class="col-12 col-lg-8">
-        {% if site.contact_form.use_netlify_form %}
-          {% include framework/global/forms/form-contact-netlify.html %}
-        {% elsif site.contact_form.use_formspree_form and site.contact_form.formspree_endpoint %}
-          {% include framework/global/forms/form-contact-formspree.html %}
+        {% if site.enable_breadcrumbs_services %}
+          {% include framework/blocks/components/breadcrumbs.html %}
         {% endif %}
+        <div class="content">{{ content }}</div>
       </div>
-      <div class="col-12 col-lg-4">
-        {% include framework/blocks/components/contact.html %}
-      </div>
+
+      {% if site.enable_sidebar_services %}
+        <div class="col-12 col-lg-3 offset-lg-1">
+          {% include framework/blocks/components/sidebar.html collection="services" %}
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </div>

@@ -4,38 +4,27 @@ body_classes: page-contact
 ---
 
 {% if page.hero.enabled %}
-  {% assign hero_text_color = site.data[page.lang].hero.text_color %}
-  {% assign hero_background_image = site.data[page.lang].hero.background_image %}
-  {% assign hero_background_image_blend_mode = site.data[page.lang].hero.background_image_blend_mode %}
-  {% assign hero_background_color = site.data[page.lang].hero.background_color %}
-  {% assign hero_background_gradient = site.data[page.lang].hero.background_gradient %}
-  {% assign hero_fullscreen_mobile = site.data[page.lang].hero.fullscreen_mobile %}
-  {% assign hero_fullscreen_desktop = site.data[page.lang].hero.fullscreen_desktop %}
-  {% assign hero_height = site.data[page.lang].hero.height %}
-
   {% include framework/blocks/sections/hero.html 
-    heading=hero_heading
-    sub_heading=hero_sub_heading
-    text_color=hero_text_color
-    background_image=hero_background_image
-    background_image_blend_mode=hero_background_image_blend_mode
-    background_color=hero_background_color
-    background_gradient=hero_background_gradient
-    fullscreen_mobile=hero_fullscreen_mobile
-    fullscreen_desktop=hero_fullscreen_desktop
-    height=hero_height
-    buttons=hero_buttons
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
+    text_color=page.hero.text_color
+    background_image=page.hero.background_image
+    background_image_blend_mode=page.hero.background_image_blend_mode
+    background_color=page.hero.background_color
+    background_gradient=page.hero.background_gradient
+    fullscreen_mobile=page.hero.fullscreen_mobile
+    fullscreen_desktop=page.hero.fullscreen_desktop
+    height=page.hero.height
+    buttons=page.hero.buttons
   %}
 {% else %}
-{% assign contact_title = site.data[page.lang].contact.title %}
-{% assign contact_description = site.data[page.lang].contact.description %}
   <div class="section">
     <div class="container">
     {% include framework/blocks/sections/title.html
       fa_icon=page.fa_icon
       icon=page.icon
-      title=contact_title
-      description=contact_description
+      title=page.title
+      description=page.description
       image=page.image
     %}
     </div>

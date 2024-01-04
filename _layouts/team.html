@@ -5,8 +5,8 @@ body_classes: page-team
 
 {% if page.hero.enabled %}
   {% include framework/blocks/sections/hero.html 
-    heading=site.data[page.lang].team.hero.heading
-    sub_heading=site.data[page.lang].team.hero.sub_heading
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
     background_image=page.hero.background_image
     background_image_blend_mode=page.hero.background_image_blend_mode
     background_color=page.hero.background_color
@@ -20,12 +20,12 @@ body_classes: page-team
 {% else %}
   <div class="section">
     <div class="container">
-        {% assign title = site.data[page.lang].team.title %}
-        {% assign description = site.data[page.lang].team.description %}
-        {% assign image = site.data[page.lang].team.image %}
-        {% assign date = site.data[page.lang].team.date %}
-        {% assign badge = site.data[page.lang].team.badge %}
-        {% assign social = site.data[page.lang].team.social %}
+        {% assign title = include.title %}
+        {% assign description = include.description %}
+        {% assign image = include.image %}
+        {% assign date = include.date %}
+        {% assign badge = include.badge %}
+        {% assign social = include.show_social %}
         
           <div class="row">
             {% if page.image and page.image != "" %}

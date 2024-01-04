@@ -2,15 +2,11 @@
 layout: default
 body_classes: page-basic
 ---
-
-{% assign hero_heading = site.data[page.lang].service.hero.heading %}
-{% assign hero_sub_heading = site.data[page.lang].service.hero.sub_heading %}
-{% assign hero_buttons = site.data[page.lang].service.hero.buttons %}
-
+<html lang="{{ site.lang }}">
 {% if page.hero.enabled %}
   {% include framework/blocks/sections/hero.html 
-    heading=hero_heading
-    sub_heading=hero_sub_heading
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
     text_color=page.hero.text_color
     background_image=page.hero.background_image
     background_image_blend_mode=page.hero.background_image_blend_mode
@@ -19,18 +15,18 @@ body_classes: page-basic
     fullscreen_mobile=page.hero.fullscreen_mobile
     fullscreen_desktop=page.hero.fullscreen_desktop
     height=page.hero.height
-    buttons=hero_buttons
+    buttons=page.hero.buttons
   %}
 {% else %}
   <div class="section">
     <div class="container">
-      {% include framework/blocks/sections/title.html
-        fa_icon=page.fa_icon
-        icon=page.icon
-        title=page.title
-        description=page.description
-        image=page.image
-      %}
+    {% include framework/blocks/sections/title.html
+      fa_icon=page.fa_icon
+      icon=page.icon
+      title=page.title
+      description=page.description
+      image=page.image
+    %}
     </div>
   </div>
 {% endif %}
@@ -47,3 +43,4 @@ body_classes: page-basic
     </div>
   </div>
 {% endif %}
+</html>

@@ -9,6 +9,7 @@ thumbnail: "/assets/images/gen/blog/blog-19-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-19.webp"
 comments: false
 weight: 1
+lang: en
 ---
 
 ## Navigating the EU CSRD Landscape
