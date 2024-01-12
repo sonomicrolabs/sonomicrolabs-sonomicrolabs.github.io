@@ -1,3 +1,13 @@
+services:
+  hero:
+    heading: Þjónusta
+    sub_heading: við bjóðum uppá heildar vökvaflæði lausnir 
+menu_item:
+  item1: "Heim"
+  item2: "Þjónusta"
+  item3: "Algengar Spurninga"
+  item4: "Um Okkur"
+  item5: "Hafðu Samband"
 site:
   lang: is
   test: þetta er test
@@ -15,10 +25,10 @@ blog:
     heading: Blog
     sub_heading: Latest news & articles
     buttons:
-      contact_us: Contact Us
+      contact_us: Hafðu samband
   categories: Categories
 contact:
-  title: Contact Us
+  title: Hafðu samband!
   description: Get in touch with us
 list:
   title: Our List
@@ -30,48 +40,49 @@ list:
     heading: Outro for List
     sub_heading: Final words
 team:
-  title: Meet Our Team
+  title: Teymið okkar
   description: Learn about our team members
-  hero:
-    heading: Our Team
-    sub_heading: Professional and experienced
+  intro:
+    heading: Við erum Íslenskt teymi 
+    sub_heading: Við erum drifin áfram með að veita tæknilausnir sem passa inn í 4. iðnbyltinguna
   meet_the_team: Meet the Team
 projects:
   title: Our Projects
   description: Showcase of our work
 home:
-description: Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability.
-hero:
-  heading: Snallar vökvaflæði lausnir
-  sub_heading: Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions.
-services:
-  heading: Our Services
-  sub_heading: Explore Our Range of Services
-  view_more_button_text: View All Services
-
-intro:
-  title: SonoMicro
-  heading: Welcome to SonoMicro
-  sub_heading: Leading the Way in Water Management
-  features:
-    first_feature: No process interruption nor downtime needed and runs without affecting flow pressure.
-    second_feature: Autonomous, real-time measurements of water flow for efficient water consumption monitoring, helping you meet CSRD regulatory requirements.
-    third_feature: Seamless integration and user-friendly interface for easy implementation and data visualization.
-    forth_feature: Tailored recommendations for optimizing water usage and reducing waste, contributing to a sustainable future.
-    fifth_feature: Cost-effective access to comprehensive hardware and software solutions, meeting budget constraints and enabling organizations of all sizes to embrace sustainable practices.
-  buttons:
-    about: About Us
-    contact: Contact Us
-  partners:
-    heading: Our Partners
-  projects:
-    heading: Our Projects
-    sub_heading: Showcasing Our Expertise
-  outro:
-    heading: Sustainable Solutions for a Better Tomorrow
-  posts:
-    heading: Latest Posts"
-    sub_heading: Insights and Updates
-about:
-  heading: "About Us"
-  sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
+  description: Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability.
+  hero:
+    heading: Nútímalegar vökvaflæði lausnir
+    sub_heading: Gagnadrifin vatnsstjórnum, án breytinga og inngripa í lagnakerfi.
+    #button1: "Fáðu tilboð"
+    button1: "Hafðu Samband"
+  services:
+    heading: Þjónustan okkar
+    sub_heading: Explore Our Range of Services
+    view_more_button_text: Skoðaðu allar þjónusturnar okkar
+  intro:
+    title: SonoMicro
+    heading: Velkominn til SonoMicro
+    sub_heading: Mælitæknin okkar og stafrænu þjónustur gera gagnadrifnar rekstrarákvarðanir mögulegar. Okkar loforð er viðskiptavinurinn kemur fyrst.
+    features:
+      first_feature: Engin þörf á niðurtíma, virkar án þrýstingsfalls í lögnum. 
+      second_feature: Sjálfvirkt, rauntíma mælingar og vöktun. Gögn aðgengileg á lokuðu vefsvæði.
+      third_feature: Auðveld uppsettning, og innleiðing. Möguleiki á að tengjast hússtjórnunarkerfum.
+      forth_feature: Sérsniðin samantekt á vatnsnotkun sem nýtist í ákvarðanatöku og skýrslugerð.
+      fifth_feature: Fáðu aðgang að mælitækni og hugbúnaða lausnum okkar. Íslenskt hugvit og framleiðsla.
+    buttons:
+      about: Um okkur
+      contact: Hafðu samband
+    partners:
+      heading: Our Partners
+    projects:
+      heading: Our Projects
+      sub_heading: Showcasing Our Expertise
+    outro:
+      heading: Sustainable Solutions for a Better Tomorrow
+    posts:
+      heading: Blog
+      sub_heading: Insights and Updates
+  about:
+    heading: "About Us"
+    sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."

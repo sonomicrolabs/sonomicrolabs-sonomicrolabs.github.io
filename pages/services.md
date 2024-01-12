@@ -10,7 +10,7 @@ lang: en
 hero:
   enabled: true
   heading: "Services"
-  sub_heading: "We offer a comprehensive, sustainable water management solutions ."
+  sub_heading: "We offer a comprehensive, sustainable water management solutions."
   text_color: "#FFFFFF"
   background_color: false
   background_gradient: true

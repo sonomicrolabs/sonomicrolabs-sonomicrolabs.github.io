@@ -25,6 +25,8 @@ hero:
     enabled: true
     list:
       - text: "Request Quote"
+        #text: {% t hodme.hero.button1 %}
+        #text: "Request Quote"
         url: "/contact"
         external: false
         fa_icon: false
@@ -53,7 +55,7 @@ intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/drop-data.webp"
-  heading: "Welcome to SonoMicro, your partner in sustainable water management solutions."
+  heading: "intro"
   sub_heading: "Our advanced sub-metering technology and digital platform enable data-driven optimization of water use for European companies subject to the EU CSRD. Experience the SonoMicro advantage with our customer-centered services. Experience the SonoMicro advantage today."
   features:
     enabled: true
@@ -96,7 +98,7 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: false
   heading: Get Started Today

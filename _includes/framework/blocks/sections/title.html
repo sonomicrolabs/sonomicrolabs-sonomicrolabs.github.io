@@ -34,7 +34,7 @@
       
       {% if title %}
         <div class="title-heading">
-          <h1>{{ title }}</h1>
+          {% if title == "Get in touch." %} <h1>{% t contact.title %}</h1> {% endif %}
         </div>
       {% endif %}
       

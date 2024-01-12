@@ -1,8 +1,18 @@
+services:
+  hero:
+    heading: Services
+    sub_heading: We offer a comprehensive, sustainable water management solutions.
+menu_item:
+  item1: "Home"
+  item2: "Services"
+  item3: "FAQ"
+  item4: "About"
+  item5: "Get in Touch"
 site:
   lang: en
   test: This is a test
   hero:
-    heading: Snallar vökvaflæði lausnir
+    heading: We Empower Your Water Sustainability Journey
 breadcrumbs:
   home: Home
 heading: We Empower Your Water Sustainability Journey
@@ -18,8 +28,8 @@ blog:
       contact_us: Contact Us
   categories: Categories
 contact:
-  title: Contact Us
-  description: Get in touch with us
+  title: Get in touch.
+  description: Discuss your use case, our pricing, or for any technical questions.
 list:
   title: Our List
   description: Explore our list
@@ -32,46 +42,47 @@ list:
 team:
   title: Meet Our Team
   description: Learn about our team members
-  hero:
-    heading: Our Team
-    sub_heading: Professional and experienced
+  intro:
+    heading: "We are a technology startup in the smart water management space"
+    sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
   meet_the_team: Meet the Team
 projects:
   title: Our Projects
   description: Showcase of our work
 home:
-description: Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability.
-hero:
-  heading: We Empower Your Water Sustainability Journey
-  sub_heading: Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions.
-services:
-  heading: Our Services
-  sub_heading: Explore Our Range of Services
-  view_more_button_text: View All Services
-
-intro:
-  title: SonoMicro
-  heading: Welcome to SonoMicro
-  sub_heading: Leading the Way in Water Management
-  features:
-    first_feature: No process interruption nor downtime needed and runs without affecting flow pressure.
-    second_feature: Autonomous, real-time measurements of water flow for efficient water consumption monitoring, helping you meet CSRD regulatory requirements.
-    third_feature: Seamless integration and user-friendly interface for easy implementation and data visualization.
-    forth_feature: Tailored recommendations for optimizing water usage and reducing waste, contributing to a sustainable future.
-    fifth_feature: Cost-effective access to comprehensive hardware and software solutions, meeting budget constraints and enabling organizations of all sizes to embrace sustainable practices.
-  buttons:
-    about: About Us
-    contact: Contact Us
-  partners:
-    heading: Our Partners
-  projects:
-    heading: Our Projects
-    sub_heading: Showcasing Our Expertise
-  outro:
-    heading: Sustainable Solutions for a Better Tomorrow
-  posts:
-    heading: Latest Posts"
-    sub_heading: Insights and Updates
-about:
-  heading: "About Us"
-  sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
+  description: Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability.
+  hero:
+    heading: We Empower Your Water Sustainability Journey
+    sub_heading: Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions.
+    #button1: "Request Quote"
+    button1: "Contact Us"
+  services:
+    heading: Our Services
+    sub_heading: Explore Our Range of Services
+    view_more_button_text: View All Services
+  intro:
+    title: SonoMicro
+    heading: Welcome to SonoMicro, your partner in sustainable water management solutions.
+    sub_heading: Our advanced sub-metering technology and digital platform enable data-driven optimization of water. Experience the SonoMicro advantage with our customer-centered services. Experience the SonoMicro advantage today.
+    features:
+      first_feature: No process interruption nor downtime needed and runs without affecting flow pressure.
+      second_feature: Autonomous, real-time measurements of water flow for efficient water consumption monitoring, helping you meet CSRD regulatory requirements.
+      third_feature: Seamless integration and user-friendly interface for easy implementation and data visualization.
+      forth_feature: Tailored recommendations for optimizing water usage and reducing waste, contributing to a sustainable future.
+      fifth_feature: Cost-effective access to comprehensive hardware and software solutions, meeting budget constraints and enabling organizations of all sizes to embrace sustainable practices.
+    buttons:
+      about: About Us
+      contact: Contact Us
+    partners:
+      heading: Our Partners
+    projects:
+      heading: Our Projects
+      sub_heading: Showcasing Our Expertise
+    outro:
+      heading: Sustainable Solutions for a Better Tomorrow
+    posts:
+      heading: Latest Posts
+      sub_heading: Insights and Updates
+  about:
+    heading: "About Us"
+    sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
