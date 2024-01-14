@@ -64,10 +64,16 @@
 
     <div class="card-title">
       {% if url %}
-        <h3><a href="{{ url | relative_url }}">{{ title }}</a></h3>
+        <h3><a href="{{ url | relative_url }}">
+          {% if title == "Hardware-As-A-Service" %} <h3>{% t collection.hardware.title %}</h3> {% endif %} 
+          {% if title == "Digital Cloud Based Solution" %} <h3>{% t collection.digital.title %}</h3> {% endif %}
+          {% if title == "OEM Service" %} <h3>{% t collection.oem.title %}</h3> {% endif %}
+        </a>
       {% else %} 
-        <h3>{{ title }}</h3>
-      {% endif %}
+          {% if title == "Hardware-As-A-Service" %} <h3>{% t collection.hardware.title %}</h3> {% endif %} 
+          {% if title == "Digital Cloud Based Solution" %} <h3>{% t collection.digital.title %}</h3> {% endif %}
+          {% if title == "OEM Service" %} <h3>{% t collection.oem.title %}</h3> {% endif %}
+          {% endif %}
     </div>
 
     {% if client %}
@@ -78,7 +84,9 @@
 
     {% if description %}
       <div class="card-description">
-        <p>{{ description }}</p>
+        {% if description == "hw description" %} <p>{% t collection.hardware.description %}</p> {% endif %} 
+        {% if description == "digital description" %} <p>{% t collection.digital.description %}</p> {% endif %} 
+        {% if description == "oem description" %} <p>{% t collection.oem.description %}</p> {% endif %}
       </div>
     {% endif %}
 

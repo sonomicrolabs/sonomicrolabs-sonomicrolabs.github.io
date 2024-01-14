@@ -7,9 +7,8 @@
             {% if site.footer.footer_title and site.footer.footer_title != "" %}
               <h2>{{ site.footer.footer_title }}</h2>
             {% endif %}
-
             {% if site.footer.footer_description and site.footer.footer_description != "" %}
-              <p>{{ site.footer.footer_description }}</p>
+              {% if site.footer.footer_description == "footer_description" %} <p>{% t footer.footer_description %}</p> {% endif %}
             {% endif %}
           </div>
 
@@ -25,7 +24,7 @@
               <div class="col-12 col-md-3 mt-gutter mt-md-0">
                 <div class="footer-menu">
                   {%  if site.footer.footer_primary_menu_title %}
-                    <h3>{{ site.footer.footer_primary_menu_title }}</h3>
+                    <h3>{% t footer.footer_primary_menu_title %}</h3>
                   {% endif %}
                   {% include framework/global/menu/menu-footer.html 
                     menu=site.data.menu.footer_primary
@@ -38,7 +37,7 @@
               <div class="col-12 col-md-3 mt-gutter mt-md-0">
                 <div class="footer-menu">
                 {%  if site.footer.footer_secondary_menu_title %}
-                  <h3>{{ site.footer.footer_secondary_menu_title }}</h3>
+                  <h3>{% t footer.footer_secondary_menu_title %}</h3>
                 {% endif %}
                 {% include framework/global/menu/menu-footer.html 
                   menu=site.data.menu.footer_secondary
@@ -51,7 +50,7 @@
               <div class="col-12 col-md-3 mt-gutter mt-md-0">
                 <div class="footer-menu">
                 {%  if site.footer.footer_tertiary_menu_title %}
-                  <h3>{{ site.footer.footer_tertiary_menu_title }}</h3>
+                  <h3>{% t footer.footer_tertiary_menu_title %}</h3>
                 {% endif %}
                 {% include framework/global/menu/menu-footer.html 
                   menu=site.data.menu.footer_tertiary
@@ -67,7 +66,7 @@
     {% if site.footer.enable_contact_details %}
     <div class="row justify-content-end mt-2">
       <div class="col-12 col-md-4">
-        <h3>Contact Us</h3>
+        <h3>{% t footer.contact %}</h3>
         {% include framework/blocks/components/contact.html
           contact=site.data.contact
         %}

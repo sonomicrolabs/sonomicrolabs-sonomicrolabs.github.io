@@ -69,10 +69,15 @@
           {% if heading == "Meet the Team" %} <h1>{% t team.title %}</h1> {% endif %}
           {% if heading == "Services" %} <h1>{% t services.hero.heading %}</h1> {% endif %}
           {% if heading == "About Us" %} <h1>{% t about.heading %}</h1> {% endif %}
-          
+          {% if heading == "Digital Solutions" %} <h1>{% t sections.digital.hero.heading %}</h1> {% endif %}
+          {% if heading == "hardware heading" %} <h1>{% t sections.hw.hero.heading %}</h1> {% endif %}
+
+
           {% if sub_heading == "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions." %} <p>{% t home.hero.sub_heading %}</p> {% endif %}
           {% if sub_heading == "about sub heading"" %} <p>{% t about.sub_heading %}</p> {% endif %}
           {% if sub_heading == "We offer a comprehensive, sustainable water management solutions." %}
+          {% if sub_heading == "digital sub heading" %} <h1>{% t sections.digital.hero.sub_heading %}</h1> {% endif %}
+          {% if sub_heading == "hardware sub heading" %} <h1>{% t sections.hw.hero.sub_heading %}</h1> {% endif %}
           <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t services.hero.sub_heading %}</p>
           {% endif %}
 

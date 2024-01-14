@@ -1,15 +1,41 @@
+footer:
+  footer_primary_menu_title: Product
+  footer_secondary_menu_title: Company
+  footer_tertiary_menu_title: Other
+  contact: Contact Us
+  footer_description: Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability.
+collection:
+  oem:
+    title: OEM Service
+    description: SonoMicro offers customized hardware solutions for seamless integration into clients' existing machinery and assets, ensuring compatibility and enhancing water management capabilities within their operations.
+  hardware:
+    title: Hardware-As-A-Service
+    description: Our services offers access to non-invasive, portable, and simple-to-install liquid flow measurement instrument that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly licencing fee.
+    hero:
+      heading: Proprietary Hardware
+      sub_heading: Our services offers access to non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost.
+  digital:
+    title: Digital Cloud Dashboard
+    description: SonoMicro's cloud-based software suite seamlessly integrates with our hardware, providing real-time data visualization and actionable insights to optimize water usage and reduce waste. Partner with us on your digital journey towards sustainable water management, and access our comprehensive suite of hardware and software solutions.
+
 FAQ:
   title: Frequently Asked Questions
 services:
   hero:
     heading: Services
     sub_heading: We offer a comprehensive, sustainable water management solutions.
+  outro:
+    heading: Ready to get started?
+    sub_heading: Contact us today for a free quote!
 menu_item:
-  item1: "Home"
-  item2: "Services"
-  item3: "FAQ"
-  item4: "About"
-  item5: "Get in Touch"
+  item1: Home
+  item2: Services
+    #item_hw: Measurement Hardware
+    #item_sw: Digital Cloud Solution
+    #item_oem: OEM
+  item3: FAQ
+  item4: About
+  item5: Get in Touch
 site:
   lang: en
   test: This is a test
@@ -48,6 +74,7 @@ team:
     heading: "We are a technology startup in the smart water management space"
     sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
   meet_the_team: Meet the Team
+  button: Contact Us
 projects:
   title: Our Projects
   description: Showcase of our work
@@ -85,7 +112,18 @@ home:
     posts:
       heading: Latest Posts
       sub_heading: Insights and Updates
+      view_more_button_text: View All Posts
 about:
   heading: About Us
   description: Empowering Sustainability Through Advanced Water Monitoring.
   sub_heading: SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come.
+
+sections: 
+  digital: 
+    hero:
+      heading: Digital Solutions
+      sub_heading: Our user-friendly software suite integrates seamlessly with our hardware, providing data visualization and recommendations for optimizing water usage and waste reduction.
+  hw:
+    hero:
+      heading: Proprietary Hardware
+      sub_heading: Our services offers access to non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost.

@@ -13,6 +13,7 @@
           {% if heading == "We are a technology startup in the smart water management space" %} <h2>{% t team.intro.heading %}</h2> {% endif %}
           {% if heading == "team heading" %} <h2>{% t team.title %}</h2> {% endif %}
           {% if heading == "intro" %} <h2>{% t home.intro.heading %}</h2> {% endif %}
+          {% if heading == "Ready to get started?" %} <h2>{% t services.outro.heading %}</h2> {% endif %}
           
 
           {% if sub_heading == "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions." %}
@@ -23,6 +24,9 @@
           {% endif %}
           {% if sub_heading == "intro sub heading" %}
           <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t home.intro.sub_heading %}</p>
+          {% endif %}
+          {% if sub_heading == "Contact us today for a free quote!" %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t services.outro.sub_heading %}</p>
           {% endif %}
          
           

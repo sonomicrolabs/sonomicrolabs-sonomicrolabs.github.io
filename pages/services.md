@@ -60,7 +60,7 @@ outro:
   buttons:
     enabled: true
     list:
-      - text: "Get A Quote"
+      - text: "Get In Touch."
         url: "/contact"
         external: false
         fa_icon: false
