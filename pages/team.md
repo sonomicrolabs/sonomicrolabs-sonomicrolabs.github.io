@@ -2,9 +2,11 @@
 layout: list
 title: "Team"
 description: "Meet our dedicated team."
-permalink: "/team/"
+permalink: /team/
+permalink_en: /team/
 date: 2018-02-12T15:37:57+07:00
 header_transparent: true
+lang: en
 
 hero:
   enabled: true
@@ -34,6 +36,7 @@ grid:
   sort_by: "weight" # "date", "weight"
   columns: 3
   prevent_click: false
+  meet_the_team: "Meet the rest of the team"
 
 intro:
   enabled: true
@@ -65,3 +68,4 @@ outro:
         fa_icon: false
         size: normal
 ---
+{% tf _team_/team.md %}

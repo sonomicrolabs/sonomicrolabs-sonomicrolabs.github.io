@@ -6,7 +6,11 @@
 <div class="col-12">
     <div class="grid-footer grid-footer-align-{{ align }}">
         <a href="{{link | relative_url }}" class="grid-view-more-button">
-            {{ text }} <i class="fa-solid fa-arrow-right"></i>
+            {% if text == "View All Services" %} {% t home.services.view_more_button_text %} {% endif %}
+            {% if text == "View All Posts" %} {% t home.intro.posts.view_more_button_text %} {% endif %}
+            {% if text == "Get In Touch." %} {% t contact.title %} {% endif %}
+            {% if text == "Get A Quote" %} {% t team.button %} {% endif %}
+            <i class="fa-solid fa-arrow-right"></i>
         </a>
     </div>
 </div>

@@ -2,13 +2,15 @@
 layout: list
 title: Services
 description: "A selection of our digital services"
-permalink: "/services/"
+permalink: /services/
+permalink_en: /services/
 header_transparent: true
+lang: en
 
 hero:
   enabled: true
   heading: "Services"
-  sub_heading: "We offer a comprehensive, sustainable water management solutions ."
+  sub_heading: "We offer a comprehensive, sustainable water management solutions."
   text_color: "#FFFFFF"
   background_color: false
   background_gradient: true
@@ -58,9 +60,10 @@ outro:
   buttons:
     enabled: true
     list:
-      - text: "Get A Quote"
+      - text: "Get In Touch."
         url: "/contact"
         external: false
         fa_icon: false
         size: normal
 ---
+{% tf _services_/services.md %}

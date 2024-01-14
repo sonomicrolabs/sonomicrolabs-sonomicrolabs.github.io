@@ -2,6 +2,8 @@
 layout: contact
 title: Get in touch.
 body_classes: page-contact
+lang: en
+permalink: /contact/
+permalink_is: /contact/
 ---
-
-Get in touch to discuss your use case, our pricing, or for any technical questions.
+{% tf _contact_/contact.md %}

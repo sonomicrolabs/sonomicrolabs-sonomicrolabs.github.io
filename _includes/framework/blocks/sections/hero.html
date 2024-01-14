@@ -35,6 +35,29 @@
   {% if height %}height: {{ height }};{% endif %}
 {% endcapture %}
 
+{% assign text=include.text %}
+{% assign url=include.url %}
+{% assign external=include.external %}
+{% assign size=include.size %}
+{% assign outline=include.outline %}
+{% assign style=include.style | default: "primary" %}
+{% assign fa_icon=include.fa_icon %}
+
+{% capture button_style %}
+  mr-1 button
+  {% if style == "primary" %}
+    {% if outline %}button button-outline-primary{% else %}button button-primary{% endif %}
+  {% endif %}
+  {% if style == "light" %}
+    {% if outline %}button button-outline-light{% else %}button button-light{% endif %}
+  {% endif %}
+  {% if style == "dark" %}
+    {% if outline %}button button-outline-dark{% else %}button button-dark{% endif %}
+  {% endif %}
+  {% if size == 'small' %}button button-sm{% endif %}
+  {% if size == 'large' %}button button-lg{% endif %}
+{% endcapture %}
+
 <div class="hero {{ fullscreen }} {{ gradient }}" style="{{ bg_color }} {{ bg_height }}">
   <div class="hero-background-image" style="{{ bg_image }}"></div>
   {% if divider %}{% include framework/blocks/components/divider.html %}{% endif %}
@@ -42,8 +65,25 @@
     <div class="row align-items-center">
       <div class="col-12 {% if image %}col-lg-6{% else %}col-lg-8{% endif %}">
         <div class="hero-text" style="{% if text_color %}color: {{ text_color }};{% endif %}">
-          {% if heading %}<h1>{{ heading }}</h1>{% endif %}
-          {% if sub_heading %}<p>{{ sub_heading }}</p>{% endif %}
+          {% if heading == "We Empower Your Water Sustainability Journey" %} <h1>{% t home.hero.heading %}</h1> {% endif %}
+          {% if heading == "Meet the Team" %} <h1>{% t team.title %}</h1> {% endif %}
+          {% if heading == "Services" %} <h1>{% t services.hero.heading %}</h1> {% endif %}
+          {% if heading == "About Us" %} <h1>{% t about.heading %}</h1> {% endif %}
+          {% if heading == "Digital Solutions" %} <h1>{% t sections.digital.hero.heading %}</h1> {% endif %}
+          {% if heading == "hardware heading" %} <h1>{% t sections.hw.hero.heading %}</h1> {% endif %}
+
+
+          {% if sub_heading == "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions." %} <p>{% t home.hero.sub_heading %}</p> {% endif %}
+          {% if sub_heading == "about sub heading"" %} <p>{% t about.sub_heading %}</p> {% endif %}
+          {% if sub_heading == "We offer a comprehensive, sustainable water management solutions." %}
+          {% if sub_heading == "digital sub heading" %} <h1>{% t sections.digital.hero.sub_heading %}</h1> {% endif %}
+          {% if sub_heading == "hardware sub heading" %} <h1>{% t sections.hw.hero.sub_heading %}</h1> {% endif %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t services.hero.sub_heading %}</p>
+          {% endif %}
+
+          <!--{% if sub_heading %}<p>{{ sub_heading }}</p>{% endif %} -->
+          <br>
+          <!-- 
           {% if buttons.enabled and buttons.list.size > 0 %}
             <div class="hero-buttons">
               {% for button in buttons.list %}
@@ -58,8 +98,17 @@
                 %}
               {% endfor %}
             </div>
+            
           {% endif %}
-        </div>
+        --> 
+        <a href="{% if external %}{{url}}{% else %}{{url | relative_url }}{% endif %}" {% if external %}target="_blank" rel="noopener"{% endif %} class="{{ button_style}}">
+          {% t home.hero.button1 %}
+          {% if fa_icon %}
+            <i class="{{ fa_icon}} ml-1"></i>
+          {% endif %}
+        </a>
+
+      </div>
       </div>
       {% if image %}
         <div class="col-12 col-lg-6">

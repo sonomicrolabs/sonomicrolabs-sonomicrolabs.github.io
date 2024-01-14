@@ -2,7 +2,7 @@
   {% if site[include.collection].size > 0 %}
     <div class="sidebar">
       {% if include.collection == 'posts' %}
-        <h5>Recent Posts</h5>
+      <h5>{{ site.data[page.lang].sidebar.recent_posts }}</h5>
         {% assign items = site[include.collection] | sort: 'weight' %}
         <ul>
           {% for item in items %}

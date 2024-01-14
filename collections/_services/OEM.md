@@ -1,14 +1,14 @@
 ---
 title: "OEM Service"
-description: "SonoMicro offers customized hardware solutions for seamless integration into clients' existing machinery and assets, ensuring compatibility and enhancing water management capabilities within their operations."
+description: "oem description"
 date: 2018-11-28T15:15:34+10:00
-weight: 4
+weight: 3
 header_transparent: true
 fa_icon: false
 icon: "assets/images/icons/icons8-design-100.png"
 thumbnail: "/assets/images/gen/services/service-4-thumbnail.webp"
 image: "/assets/images/gen/services/service-4.webp"
-
+lang: en
 hero:
   enabled: true
   heading: "OEM Solution"

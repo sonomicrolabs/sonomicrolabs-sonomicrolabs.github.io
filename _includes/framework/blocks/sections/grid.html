@@ -4,7 +4,7 @@
 {% assign sort_by = include.sort | default: 'date' %}
 {% assign heading = include.heading %}
 {% assign sub_heading = include.sub_heading %}
-{% assign view_more_button_text = include.view_more_button_text | default: "View More" %}
+{% assign view_more_button_text = include.view_more_button_text | default: site.data[page.lang].grid.view_more %}
 {% assign view_more_button_link = include.view_more_button_link %}
 {% assign view_more_button_align = include.view_more_button_align | default: "right" %}
 {% assign columns = include.columns | default: 3 %}

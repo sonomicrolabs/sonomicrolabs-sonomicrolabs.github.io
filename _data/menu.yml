@@ -6,16 +6,16 @@ main:
     url: /services/
     weight: 1
     child:
-      - name: "Alarms"
-        url: /services/custom-alarms/
+    #  - name: "Alarms"
+    #    url: /services/custom-alarms/
       - name: "Measurement Hardware"
         url: /services/hardware/
-      - name: "Licencing model"
-        url: /services/licensing-model/
+   #   - name: "Licencing model"
+   #     url: /services/licensing-model/
       - name: "OEM"
         url: /services/OEM/
-      - name: "Resources Optimization"
-        url: /services/asset-optimization/
+ #     - name: "Resources Optimization"
+  #      url: /services/asset-optimization/
       - name: "Digital Cloud Solutions"
         url: /services/digital-solutions/
   #- name: Projects
@@ -41,20 +41,27 @@ main:
     weight: 5
   
   - name: Get in touch
-    url: "/contact"
+    url: /contact
     weight: 6
 footer_primary:
-  - name: "Alarms"
-    url: /services/custom-alarms/
-    weight: 2
-  - name: "OEM"
-    url: /services/OEM/
-  - name: "Licencing model"
-    url: /services/licensing-model/
-    name: "Resources Optimization"
-    url: /services/asset-optimization/
   - name: "Measurement Hardware"
     url: /services/hardware/
+    weight: 1
+  - name: "Digital Cloud Solutions"
+    url: /services/digital-solutions/
+    weight: 2
+ # - name: "Alarms"
+ #   url: /services/custom-alarms/
+ #   weight: 2
+  - name: "OEM"
+    url: /services/OEM/
+    weight: 3
+  #name: "Licencing model"
+  #url: /services/licensing-model/
+ #   name: "Resources Optimization"
+ #   url: /services/asset-optimization/
+    
+    
   #- name: Projects
   #  url: /projects/
   #  weight: 3

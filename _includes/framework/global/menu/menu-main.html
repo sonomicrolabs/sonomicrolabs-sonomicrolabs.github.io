@@ -1,9 +1,14 @@
 <div class="menu-main">
   <ul>
     {% for item in site.data.menu.main %}
+
       {% if item.child %}
+    
         <li class="menu-item-dropdown menu-item-{{ item.name }}{% if item.url == page.url %} active {% endif %}">
-          <a href="{{ item.url | relative_url }}">{{ item.name }} <i class="fa-solid fa-chevron-down"></i></a>
+          <a href="{{ item.url | relative_url }}">
+            {% if item.name == "Services" %} {% t menu_item.item2 %} {% endif %} </a>
+<!---            
+            <i class="fa-solid fa-chevron-down"></i></a>
           
           <div class="dropdown-menu">
             {% for childitem in item.child  %}
@@ -17,14 +22,13 @@
 
                 <div class="dropdown-item-content">
                   {% if childitem.name %}<div class="dropdown-item-name">{{ childitem.name }}</div>{% endif %}
-                  {% if childitem.description %}<div class="dropdown-item-description">{{ childitem.description }}</div>{% endif %}
                 </div>
 
               </a>
 
             {% endfor %}
           </div>
-
+--> 
         </li>
       {% else %}
         {% if item.url == page.url  %}
@@ -33,7 +37,13 @@
           {% assign active = nil %}
         {% endif %}
         <li class="{% if item.url == page.url %}active{% endif %}">
-          <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+          <a href="{{ item.url | relative_url }}">
+            
+            {% if item.name == "FAQ" %} {% t menu_item.item3 %} {% endif %}
+            {% if item.name == "About" %} {% t menu_item.item4 %} {% endif %}
+            {% if item.name == "Home" %} {% t menu_item.item1 %} {% endif %}
+            {% if item.name == "Get in touch" %} {% t menu_item.item5 %} {% endif %}
+          </a>
         </li>
       {% endif %}
     {% endfor %}

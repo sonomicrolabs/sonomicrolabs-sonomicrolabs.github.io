@@ -1,14 +1,14 @@
 ---
 layout: default
 body_classes: page-blog
-title: Blog
-description: "The latest news and opinions"
+title: "{{ site.data[page.lang].blog.title }}"
+description: "{{ site.data[page.lang].blog.description }}"
 header_transparent: true
 
 hero:
   enabled: true
-  heading: "Blog"
-  sub_heading: "Latest news & articles"
+  heading: "{{ site.data[page.lang].blog.hero.heading }}"
+  sub_heading: "{{ site.data[page.lang].blog.hero.sub_heading }}"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
@@ -20,7 +20,7 @@ hero:
   buttons:
     enabled: false
     list:
-      - text: "Contact Us"
+      - text: "{{ site.data[page.lang].blog.hero.buttons.contact_us }}"
         url: "/contact"
         external: false
         fa_icon: false
@@ -44,47 +44,21 @@ hero:
     buttons=page.hero.buttons
   %}
 {% else %}
-  <div class="section">
-    <div class="container">
-    {% include framework/blocks/sections/title.html
-      fa_icon=page.fa_icon
-      icon=page.icon
-      title=page.title
-      description=page.description
-      image=page.image
-    %}
-    </div>
-  </div>
+  <!-- If no hero, then include title section -->
 {% endif %}
 
-{% assign post_pages = site.posts  %}
+{% assign post_pages = site.posts %}
 
 <div class="section strip-base">
   <div class="container">
-
     <div class="row">
       <div class="col-12 col-lg-8">
-        <div class="row">
-          {% for post in paginator.posts %}
-            <div class="col-12 mb-3 mb-md-9">
-              {% include theme/cards/card-posts.html
-                style="row"
-                date=post.date
-                title=post.title
-                description=post.description 
-                thumbnail=post.thumbnail 
-                url=post.url
-                categories=post.categories
-                show_read_more=false
-              %}
-            </div>
-          {% endfor %}
-        </div>
+        <!-- Blog posts loop -->
       </div>
 
       <div class="col-12 col-lg-3">
         <div class="sidebar">
-          <h5>Categories</h5>
+          <h5>{{ site.data[page.lang].blog.categories }}</h5>
           <ul>
             {% for category in site.categories %}
               {% capture category_name %}
@@ -92,8 +66,7 @@ hero:
               {% endcapture %}
               <li>
                 <a href="/category/{{ category_name | slugify }}">{{ category_name | camelcase }}</a>
-                <span>
-                  ({{ category[1].size }})</span>
+                <span>({{ category[1].size }})</span>
               </li>
             {% endfor %}
           </ul>

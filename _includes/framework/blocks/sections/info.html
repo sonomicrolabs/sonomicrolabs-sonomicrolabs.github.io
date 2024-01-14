@@ -9,19 +9,57 @@
   <div class="row {% if align == 'center' %}justify-content-center text-center info-{% endif %}">
     <div class="col-12 {% if align == 'center' and image %}mb-4{% endif %}{% if align == 'center' %}col-md-8{% else %}col-md-6{% endif %} {% if align == 'left' %}order-1{% elsif align == 'right' %}order-2{% elsif align == 'center' %}{% endif %}">
       <div class="info-content">
-        {% if heading %}
-          <h2>{{ heading }}</h2>
-        {% endif %}
-        {% if sub_heading %}
-          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{{ sub_heading }}</p>
-        {% endif %}
+          
+          {% if heading == "We are a technology startup in the smart water management space" %} <h2>{% t team.intro.heading %}</h2> {% endif %}
+          {% if heading == "team heading" %} <h2>{% t team.title %}</h2> {% endif %}
+          {% if heading == "intro" %} <h2>{% t home.intro.heading %}</h2> {% endif %}
+          {% if heading == "Ready to get started?" %} <h2>{% t services.outro.heading %}</h2> {% endif %}
+          
+
+          {% if sub_heading == "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions." %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t home.intro.sub_heading %}</p>
+          {% endif %}
+          {% if sub_heading == "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets." %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t team.intro.sub_heading %}</p>
+          {% endif %}
+          {% if sub_heading == "intro sub heading" %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t home.intro.sub_heading %}</p>
+          {% endif %}
+          {% if sub_heading == "Contact us today for a free quote!" %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t services.outro.sub_heading %}</p>
+          {% endif %}
+         
+          
+
         {% if features.enabled and features.list.size > 0 %}
           <ul>
-            {% for feature in features.list %}
-              <li>
+            <!--{% for feature in features.list %}
+               <li>
                 <i class="{% if feature.fa_icon %}{{ feature.fa_icon }} mr-1{% endif %}"></i>
                 {{ feature.text }}</li>
             {% endfor %}
+            <li>
+            -->
+            <li>
+              <i class="fas fa-check"></i>
+              {%t home.intro.features.first_feature %} 
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              {%t home.intro.features.second_feature %} 
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              {%t home.intro.features.third_feature %} 
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              {%t home.intro.features.forth_feature %} 
+            </li>
+            <li>
+              <i class="fas fa-check"></i>
+              {%t home.intro.features.fifth_feature %} 
+            </li>
           </ul>
         {% endif %}
         {% if buttons.enabled and buttons.list.size > 0 %}

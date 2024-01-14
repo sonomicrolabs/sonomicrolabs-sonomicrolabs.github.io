@@ -8,6 +8,7 @@ description: "Sonomicro provides innovative water data collection solutions that
 thumbnail: "/assets/images/gen/blog/blog-6-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-6.webp"
 weight: 2
+lang: en
 ---
 
 Sonomicro provides innovative water data collection solutions that help businesses make actionable, data-guided choices for sustainability. With the EU announcing 33 commitments for global water security, Sonomicro's solutions can play a key role in addressing some of these commitments.

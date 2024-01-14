@@ -1,10 +1,12 @@
 ---
 layout: home
-permalink: "/"
+permalink: /
+permalink_en: /
 title: "SonoMicro"
 description: "Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability."
 header_transparent: true
 meta_title: SonoMicro
+lang: en
 
 hero:
   enabled: true
@@ -23,6 +25,8 @@ hero:
     enabled: true
     list:
       - text: "Request Quote"
+        #text: {% t hodme.hero.button1 %}
+        #text: "Request Quote"
         url: "/contact"
         external: false
         fa_icon: false
@@ -39,9 +43,9 @@ hero:
 
 services:
   enabled: true
-  heading: "Our Services"
   sub_heading: ""
-  limit: 6
+  heading: "Our Services"
+  limit: 3
   sort: "weight" # 'date'
   view_more_button_text: "View All Services"
   view_more_button_link: "/services"
@@ -51,8 +55,8 @@ intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/drop-data.webp"
-  heading: "Welcome to SonoMicro, your partner in sustainable water management solutions."
-  sub_heading: "Our advanced sub-metering technology and digital platform enable data-driven optimization of water use for European companies subject to the EU CSRD. Experience the SonoMicro advantage with our customer-centered services. Experience the SonoMicro advantage today."
+  heading: "intro"
+  sub_heading: "intro sub heading"
   features:
     enabled: true
     list:
@@ -94,7 +98,7 @@ projects:
   prevent_click: false
 
 outro:
-  enabled: true
+  enabled: false
   align: center
   image: false
   heading: Get Started Today
@@ -123,3 +127,4 @@ posts:
   view_more_button_link: "/blog"
   prevent_click: false
 ---
+{% tf _home_/home.md %}

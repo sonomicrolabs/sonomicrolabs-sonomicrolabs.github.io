@@ -117,6 +117,8 @@ GEM
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
+    jekyll-multiple-languages-plugin (1.8.0)
+      jekyll (>= 2.0, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
@@ -215,6 +217,7 @@ DEPENDENCIES
   github-pages (~> 217)
   jekyll (= 3.9.0)
   jekyll-environment-variables
+  jekyll-multiple-languages-plugin
   jekyll-paginate
   liquid (= 4.0.3)
   webrick (~> 1.7)

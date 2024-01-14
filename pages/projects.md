@@ -1,10 +1,11 @@
 ---
 layout: list
-collection: "projects"
+collection: projects
 title: Projects
 description: "A selection of our work and projects."
-permalink: "/projects/"
+permalink: /projects/
 header_transparent: true
+lang: en
 
 hero:
   enabled: true
@@ -74,3 +75,4 @@ outro:
         outline: false
         style: "primary"
 ---
+{% tf _projects_/projects.md %}

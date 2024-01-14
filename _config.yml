@@ -1,18 +1,27 @@
 # -------------------
 # Jekyll Config
 # --------------------
+name: "sonomicro"
 remote_theme: "sonomicrolabs/sonomicrolabs.github.io"
-baseurl:  
-url: "https://www.sonomicro.com"
+url: "https://www.sonomicro.com/"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
 collections_dir: collections
+languages: ["is","en"]
+defaultLang: is
+lang: is
+baseurl:
+languageNames:
+  is: Icelandic
+  en: English
+exclude_from_localizations: [ "CNAME"]
 
 # Plugins
 plugins:
   - jekyll-environment-variables
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
 
 paginate: 6
 paginate_path: "/blog/page/:num"
@@ -20,7 +29,7 @@ paginate_path: "/blog/page/:num"
 collections:
   services:
     output: true
-    permalink: /:collection/:path/
+    permalink: /collection/:path/
   projects:
     output: false
     permalink: /:collection/:path/
@@ -128,10 +137,10 @@ fonts:
 
 logo:
   logo_text: "SonoMicro"
-  logo_image: assets/images/logo/logo.png
-  logo_image_mobile: assets/images/logo/logo-mobile.png
-  logo_image_invert: assets/images/logo/logo-invert.png
-  logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.png
+  logo_image: /assets/images/logo/logo.png
+  logo_image_mobile: /assets/images/logo/logo-mobile.png
+  logo_image_invert: /assets/images/logo/logo-invert.png
+  logo_image_invert_mobile: /assets/images/logo/logo-invert-mobile.png
   logo_image_desktop_height: "30px"
   logo_image_desktop_width: "132px"
   logo_image_mobile_height: "30px"
@@ -152,9 +161,9 @@ header:
 
 darkmode:
   enable_dark_mode: true
-  show_dark_mode_toggle_in_header: true
-  show_dark_mode_toggle_in_bottom: true
-  show_dark_mode_toggle_in_mobile_menu: true
+  show_dark_mode_toggle_in_header: false
+  show_dark_mode_toggle_in_bottom: false
+  show_dark_mode_toggle_in_mobile_menu: false
 
 analytics:
   google_analytics_id: ""
@@ -173,13 +182,13 @@ contact_form:
 
 menu: 
   show_dropdown_items_in_mobile_menu: false
-  show_social_media_in_mobile_menu: true
+  show_social_media_in_mobile_menu: false
 
 footer:
   enable_footer: true # show/hide the entire footer
-  footer_title: "SonoMicro Labs"
-  footer_description: "Benefit from our innovative water management solutions, providing your business with actionable insights to make data-guided choices for sustainability."
-  enable_social_media_icons: true
+  footer_title: "SonoMicro"
+  footer_description: "footer_description"
+  enable_social_media_icons: false
   enable_contact_details: true
   enable_menu_footer_primary: true
   enable_menu_footer_secondary: true
@@ -191,7 +200,7 @@ footer:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2023 SonoMicrolabs ehf"
+  copyright_text: "© 2024 SonoMicrolabs ehf"
 
 sidebar:
   enable_sidebar_services: true
