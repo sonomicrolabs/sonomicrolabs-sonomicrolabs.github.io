@@ -1,7 +1,9 @@
+FAQ:
+  title: Algengar Spurningar
 services:
   hero:
-    heading: Þjónusta
-    sub_heading: við bjóðum uppá heildar vökvaflæði lausnir 
+    heading: Þjónusta okkar
+    sub_heading: Við bjóðum uppá heildar vökvaflæði lausnir 
 menu_item:
   item1: "Heim"
   item2: "Þjónusta"
@@ -83,6 +85,7 @@ home:
     posts:
       heading: Blog
       sub_heading: Insights and Updates
-  about:
-    heading: "About Us"
-    sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
+about:
+  heading: Um Okkuar
+  description: ÍSLENSKA Empowering Sustainability Through Advanced Water Monitoring.
+  sub_heading: SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come.

@@ -1,3 +1,5 @@
+FAQ:
+  title: Frequently Asked Questions
 services:
   hero:
     heading: Services
@@ -83,6 +85,7 @@ home:
     posts:
       heading: Latest Posts
       sub_heading: Insights and Updates
-  about:
-    heading: "About Us"
-    sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
+about:
+  heading: About Us
+  description: Empowering Sustainability Through Advanced Water Monitoring.
+  sub_heading: SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come.

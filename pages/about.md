@@ -12,7 +12,7 @@ image: "/assets/images/gen/content/drop.webp"
 hero:
   enabled: false
   heading: "About Us"
-  sub_heading: "SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come."
+  sub_heading: "about sub heading"
   background_image: false
   background_image_blend_mode: false
   full_height_mobile: false

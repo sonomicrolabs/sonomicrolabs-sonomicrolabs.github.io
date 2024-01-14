@@ -67,9 +67,15 @@
         <div class="hero-text" style="{% if text_color %}color: {{ text_color }};{% endif %}">
           {% if heading == "We Empower Your Water Sustainability Journey" %} <h1>{% t home.hero.heading %}</h1> {% endif %}
           {% if heading == "Meet the Team" %} <h1>{% t team.title %}</h1> {% endif %}
-          
+          {% if heading == "Services" %} <h1>{% t services.hero.heading %}</h1> {% endif %}
+          {% if heading == "About Us" %} <h1>{% t about.heading %}</h1> {% endif %}
           
           {% if sub_heading == "Unlock Data-Driven Water Management with Our Non-Invasive Flow Metering Solutions." %} <p>{% t home.hero.sub_heading %}</p> {% endif %}
+          {% if sub_heading == "about sub heading"" %} <p>{% t about.sub_heading %}</p> {% endif %}
+          {% if sub_heading == "We offer a comprehensive, sustainable water management solutions." %}
+          <p class="mt-1 large {% if align == 'center' %}mx-auto{% endif %}">{% t services.hero.sub_heading %}</p>
+          {% endif %}
+
           <!--{% if sub_heading %}<p>{{ sub_heading }}</p>{% endif %} -->
           <br>
           <!-- 

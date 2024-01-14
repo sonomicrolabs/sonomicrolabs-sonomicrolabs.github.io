@@ -56,7 +56,7 @@ intro:
   align: left
   image: "/assets/images/gen/content/drop-data.webp"
   heading: "intro"
-  sub_heading: "Our advanced sub-metering technology and digital platform enable data-driven optimization of water use for European companies subject to the EU CSRD. Experience the SonoMicro advantage with our customer-centered services. Experience the SonoMicro advantage today."
+  sub_heading: "intro sub heading"
   features:
     enabled: true
     list:
