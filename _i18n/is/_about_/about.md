@@ -10,10 +10,11 @@ Stefna SonoMicro er að bjóða uppá vatnstjórnunarkerfi í fremsta flokki, me
 
 Félagið var stofnað í Janúar 2023 af Daníel Bergmann Sigtryggsson sem er verkfræðingur með langa vöruþróunar reynslu úr atvinnulífinu. 
 
-- Hugmyndin af hátækni vökvaflæðimælingum hefur hlotið góðar undirtektir frá samkeppnissjóðum frá byrjun sem hafa verið bakhjarl verkefnisins. 
+- Hugmyndin af hátækni vökvaflæðimælingum hefur hlotið góðar undirtektir frá samkeppnissjóðum sem hafa verið bakhjarl verkefnisins frá byrjun. 
 
-- Ágúst 2023 flutti félagið úr Lágmúla 5 yfir til Árleyni 2 og í kjölfarið komið upp fyrsta flokks rannsókna stofu fyrir vökvaflæðirannsóknir. 
+- Ágúst 2023 flutti félagið úr Lágmúla 5 yfir til Árleyni 2.
 
+- Félagið hefur komið upp fyrsta flokks rannsókna stofu fyrir vökvaflæðirannsóknir. Sú aðstaða nýtist í vöruþróun, gagnasöfnun og kvörðun á mælitækjum SonoMicro.
 
 
 ## Íslensk Nýsköpun
