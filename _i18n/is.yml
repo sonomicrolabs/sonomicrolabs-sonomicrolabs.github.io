@@ -9,14 +9,14 @@ collection:
     title: Hönnunar Þjónusta
     description: Í samstarfi við SonoMicro, sérsnýðum við mælitæknina okkar til að falla fullkomlega að búnaði viðskiptavina, t.d. matvælaframleiðslutækjum eða annað. 
   hardware:
-    title: Mælibúnaður
-    description: Þjónustan okkar býður uppá aðgang að mælitækja tækni okkar, sem krefst ekki inngripa í lagnakerfi, er einfalt að setja upp og er tengt við skýjatæknina okkar. Viltu fá gögnin beint í hússtjórnunarkerfi? ekkert mál, tækið styður samskipti yfir vír.
+    title: Mælabúnaður
+    description: Þjónustan okkar býður uppá aðgang að mælitækja tækni okkar, sem krefst ekki inngripa í lagnakerfi, er einfalt að setja upp og er tengt sítengt við skýjatæknina okkar. Viltu fá gögnin beint í hússtjórnunarkerfi? ekkert mál, tækið styður einnig samskipti yfir vír.
     hero:
-      heading: Proprietary Hardware
-      sub_heading: Our services offers access to non-invasive, simple-to-install sub-metering hardware that provides precise, real-time water flow data, allowing for efficient water usage monitoring at a minimal, budget-friendly ongoing cost.
+      heading: Mælabúnaður
+      sub_heading: Þjónustan okkar býður uppá aðgang að mælitækja tækni okkar, sem krefst ekki inngripa í lagnakerfi, er einfalt að setja upp og er tengt sítengt við skýjatæknina okkar. Viltu fá gögnin beint í hússtjórnunarkerfi? ekkert mál, tækið styður einnig samskipti yfir vír.
   digital:
-    title: Skýja Mælaborð
-    description: SonoMicro lausnin krefst ekki síma apps. Mælaborðið er í skýjinu aðgengilegt úr vafra, hugbúnaðurinn tengist vélbúnaði okkar fullkomlega, gefur þér sjónræna innsýn inn í notkunarmynstur þinna kerfa. Þú er betri í stakk búin til að taka skynsamar rekstrar ákvarðanir og verja verðmætar auðlindir á sama tíma, umhverfinu til hagsbóta. Viltu tengjast hússtjórnunarkerfinu þínu? ekkert mál.
+    title: Stafrænt Mælaborð
+    description: Mælaborðið er í skýjinu aðgengilegt úr vafra, hugbúnaðurinn tengist vélbúnaði okkar fullkomlega, gefur þér sjónræna innsýn inn í notkunarmynstur þinna kerfa. Þú er betri í stakk búin til að taka skynsamar rekstrar ákvarðanir og verja verðmætar auðlindir á sama tíma, umhverfinu til hagsbóta. Viltu tengjast hússtjórnunarkerfinu þínu? ekkert mál.
 
 FAQ:
   title: Algengar Spurningar
@@ -116,7 +116,7 @@ home:
 
 about:
   heading: Um Okkur
-  description: Við viljum vera virðisaukandi í Íslenskum matvælaiðnaði. 
+  description: Við erum drifin áfram af því að veita tæknilausnir fyrir samkeppnishæfan iðnað framtíðarinnar. 
   sub_heading: SonoMicro's mission is to advance sustainable water management through cutting-edge, non-invasive monitoring solutions that enable organizations to optimize water usage and minimize waste. Together, we're building a future where responsible water management is the norm, fostering a healthier environment for generations to come.
 
 sections: 
