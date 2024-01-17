@@ -12,8 +12,9 @@ Félagið var stofnað í Janúar 2023 af Daníel Bergmann Sigtryggsson sem er v
 
 - Hugmyndin af hátækni vökvaflæðimælingum hefur hlotið góðar undirtektir frá samkeppnissjóðum sem hafa verið bakhjarl verkefnisins frá byrjun. 
 
-- Ágúst 2023 flutti félagið úr Lágmúla 5 yfir til Árleyni 2 og í kjölfarið komið upp fyrsta flokks rannsókna stofu fyrir vökvaflæðirannsóknir. 
+- Ágúst 2023 flutti félagið úr Lágmúla 5 yfir til Árleyni 2.
 
+- Félagið hefur komið upp fyrsta flokks rannsókna stofu fyrir vökvaflæðirannsóknir. Sú aðstaða nýtist í vöruþróun, gagnasöfnun og kvörðun á mælitækjum SonoMicro.
 
 
 ## Íslensk Nýsköpun

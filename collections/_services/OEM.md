@@ -12,7 +12,7 @@ lang: en
 hero:
   enabled: true
   heading: "OEM Solution"
-  sub_heading: "SonoMicro offers customized hardware solutions for seamless integration into clients' existing machinery and assets, ensuring compatibility and enhancing water management capabilities within their operations."
+  sub_heading: "oem description"
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
