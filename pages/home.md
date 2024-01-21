@@ -120,8 +120,8 @@ posts:
   enabled: true
   heading: "Latest Posts"
   sub_heading: ""
-  limit: 2
-  columns: 2
+  limit: 6
+  columns: 3
   sort:  'date' # "weight" # 'date'
   view_more_button_text: "View All Posts"
   view_more_button_link: "/blog"
