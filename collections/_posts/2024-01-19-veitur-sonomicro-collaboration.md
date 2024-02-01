@@ -26,6 +26,6 @@ samband Veitna og Sonomicro.
 - Sonomicro stendur fyrir inngripslausum vöktunarlausnum sem tryggja hagkvæma og auðvelda innleiðingu vökvaflæði mælinga.
 - Skuldbinding okkar við Heimsmarkmið Sameinuðu þjóðanna endurspeglar okkar áherslu á sjálfbærni, nýsköpun og ábyrga neyslu.
 
-Með þessu samstarfi leggjum við grunninn að framtíð þar sem vel er farið með vatnsauðlindir og skapað heilbrigðara umhverfi fyrir næstu kynslóðir. Við þökkum Ölgerðinni fyrir traustið og erum full tilhlökkunar að takast á við þetta verkefni.
+Við þökkum Veitum fyrir traustið og erum full tilhlökkunar að takast á við þetta verkefni.
 
 **Sonomicro** - Framúrskarandi tæknilausnir, fyrir sjálfbæra framtíð.
