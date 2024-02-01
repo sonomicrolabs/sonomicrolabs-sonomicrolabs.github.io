@@ -73,8 +73,20 @@ team:
   intro:
     heading: Við erum nýsköpunar fyrirtæki í vatnstjórnunar geiranum
     sub_heading: Við erum drifin áfram af því að veita tæknilausnir fyrir samkeppnishæfan iðnað framtíðarinnar.
-  meet_the_team: Meet the Team
+  meet_the_team: Aðrir í Teyminu
   button: Hafðu samband!
+  Daniel: 
+    description: Daníel ber ábyrgð á vöruþróun. Hann sér einnig um daglegan rekstur og fjáröflun.
+    jobtitle: Stofnandi / Framkvæmdastjóri
+  Kristjan:
+    description: Kristján sér um markaðsmál og strategíu.
+    jobtitle: Stjórnarmaður / viðskipta strategía
+  Hildur: 
+    description: Hildur er ráðgjafi félagsins þegar kemur að sjálfbærnimarkaðinum.
+    jobtitle: Stjórnakona
+  Einar: 
+    description: Einar er hugbúnaðarsérfræðingur félagsins.
+    jobtitle: Hugbúnaðarverkfræðingur
 projects:
   title: Our Projects
   description: Showcase of our work

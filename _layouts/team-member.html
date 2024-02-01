@@ -35,13 +35,20 @@ body_classes: page-team
                     <h1>{{ page.title }}</h1>
                 {% endif %}
                 
-                {% if page.description %}
-                    <p>{{ page.description }}</p>
-                {% endif %}
+                {% if page.description == "daniel description" %} <p>{% t team.Daniel.description %}</p> {% endif %}
+                {% if page.description == "hildur description" %} <p>{% t team.Hildur.description %}</p> {% endif %}
+                {% if page.description == "kristjan description" %} <p>{% t team.Kristjan.description %}</p> {% endif %}
+                {% if page.description == "einar description" %} <p>{% t team.Einar.description %}</p> {% endif %}
 
                 <div class="team-meta">
                     {% if page.description %}
-                        <div class="team-jobtitle">{{ page.jobtitle }}</div>
+
+                        <div class="team-jobtitle">
+                          {% if page.jobtitle == "daniel jobtitle" %} <h3>{% t team.Daniel.jobtitle %}</h3> {% endif %}
+                          {% if page.jobtitle == "hildur jobtitle" %} <h3>{% t team.Hildur.jobtitle %}</h3> {% endif %}
+                          {% if page.jobtitle == "kristjan jobtitle" %} <h3>{% t team.Kristjan.jobtitle %}</h3> {% endif %}
+                          {% if page.jobtitle == "einar jobtitle" %} <h3>{% t team.Einar.jobtitle %}</h3> {% endif %}
+                        </div>
                     {% endif %}
     
                     {% if page.links %}
@@ -78,7 +85,7 @@ body_classes: page-team
 {% if cards.size > 0 %}
 <div class="section">
   <div class="container">
-    <h2>Meet the rest of the team</h2>
+    <h2>{% t team.meet_the_team %}</h2> 
     <div class="row">
 
       {% include framework/blocks/components/grid-header.html

@@ -4,10 +4,10 @@ layout: team-member
 header_transparent: true
 date: 2023-06-19T13:44:30+10:00
 weight: 5
-description: "Hildur provides guidance on sustainability standards in the marketplace."
+description: "hildur description"
 thumbnail: "/assets/images/team/hildur-thumbnail.jpeg"
 image: "/assets/images/team/hildur-thumbnail.jpeg"
-jobtitle: "Advisory boardmember"
+jobtitle: "hildur jobtitle"
 links:
   - url: "https://www.linkedin.com/in/hildurhauksdottir/"
     label: LinkedIn
