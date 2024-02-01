@@ -1,25 +1,25 @@
 ---
 layout: post
-title: "Tilkynning: Sonomicro og Ölgerðin – Samstarf"
-date: 2024-01-17
+title: "Tilkynning: Sonomicro og Veitur – Samstarf"
+date: 2024-01-19
 authors: ["Daniel Sigtryggsson"]
 categories: [Tilkynning]
-description: "Sonomicro tilkynnir með stolti samkomulag um samstarf með Ölgerðinni, sem leggur áherslu á sameiginlega skuldbindingu við sjálfbæra þróun og nýsköpun í iðnaðarháttum."
-thumbnail: "/assets/images/gen/blog/blog-announcement-1-thumbnail.webp"
-image: "/assets/images/gen/blog/blog-announcement-1.webp"
-weight: 1
+description: "Sonomicro tilkynnir með stolti samkomulag um samstarf með Veitur Ohf, sem leggur áherslu á gagnkvæman áhuga á að prófa frumgerð vatnsmælis Sonomicro á völdum stöðum í starfsemi Veitna."
+thumbnail: "/assets/images/gen/blog/blog-announcement-2-thumbnail.webp"
+image: "/assets/images/gen/blog/blog-announcement-2.webp"
+weight: 2
 lang: is
 ---
 
-Við **Sonomicro**, frumkvöðlar í tæknilausnum fyrir samkeppnishæfan iðnað framtíðarinnar, erum ánægð að tilkynna um spennandi samstarf við Ölgerðina. Þetta samstarf er vitnisburður um okkar skuldbindingu við að bjóða upp á vatnstjórnunarkerfi í fremsta flokki, sem styður við sjálfbærni og hámarkar nýtni í vatnsauðlindum.
+Við **Sonomicro**, frumkvöðlar í tæknilausnum fyrir samkeppnishæfan iðnað framtíðarinnar, erum ánægð að tilkynna um spennandi samstarf við Veitur Ohf.
 
 **Samstarfið**:
 
 Tilgangur samstarfsins er þríþættur:
-1. Ölgerðin mun fá auknar og gagnlegar upplýsingar um flæði í völdum framleiðsluferlum.
+1. Veitur fá auknar og gagnlegar upplýsingar um flæði í völdum ferlum.
 2. Sonomicro fær verðmætar upplýsingar um hegðun mælitækja sinna í raunverulegum aðstæðum
 3. Ef vel gengur getur samstarfið myndað grundvöll fyrir áframhaldandi og langvarandi
-samband Ölgerðarinnar og Sonomicro.
+samband Veitna og Sonomicro.
 
 **Áherslur Sonomicro**:
 

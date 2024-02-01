@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Announcements
+title: Tilkynning
 lang: is
 ---
