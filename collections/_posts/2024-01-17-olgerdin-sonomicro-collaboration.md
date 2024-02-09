@@ -3,8 +3,8 @@ layout: post
 title: "Tilkynning: Sonomicro og Ölgerðin – Samstarf"
 date: 2024-01-17
 authors: ["Daniel Sigtryggsson"]
-categories: [Announcements]
-description: "Sonomicro tilkynnir með stolti samkomulag um samstarf með Ölgerðini, sem leggur áherslu á sameiginlega skuldbindingu við sjálfbæra þróun og nýsköpun í iðnaðarháttum."
+categories: [Tilkynning]
+description: "Sonomicro tilkynnir með stolti samkomulag um samstarf með Ölgerðinni, sem leggur áherslu á sameiginlega skuldbindingu við sjálfbæra þróun og nýsköpun í iðnaðarháttum."
 thumbnail: "/assets/images/gen/blog/blog-announcement-1-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-announcement-1.webp"
 weight: 1
