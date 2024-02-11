@@ -5,8 +5,8 @@ title: "Einar Már Björgvinsson"
 date: 2023-08-16T13:44:30+10:00
 weight: 3
 description: "einar description"
-thumbnail: "/assets/images/team/mike-vance-thumbnail.jpeg"
-image: "/assets/images/team/mike-vance.jpeg"
+thumbnail: "/assets/images/team/einar.jpg"
+image: "/assets/images/team/einar.jpg"
 jobtitle: "einar jobtitle"
 links:
   - url: "https://www.linkedin.com/in/einar-m%C3%A1r-bj%C3%B6rgvinsson-9167833/"
