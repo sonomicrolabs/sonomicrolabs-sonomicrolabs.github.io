@@ -4,10 +4,10 @@ header_transparent: true
 title: "Kristjan Gudmundsson"
 date: 2023-08-16T13:44:30+10:00
 weight: 3
-description: "Kristjan is in charge of business strategy and outreach"#
+description: "kristjan description"
 thumbnail: "/assets/images/team/Kristjan.jpeg"
 image: "/assets/images/team/Kristjan.jpeg"
-jobtitle: "Business Strategist / Senior Advisor"
+jobtitle: "kristjan jobtitle"
 links:
   - url: "https://www.linkedin.com/in/gudmundsson/"
     label: LinkedIn

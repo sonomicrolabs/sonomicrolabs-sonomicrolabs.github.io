@@ -1,19 +1,18 @@
 ---
-title: "Daniel Bergmann Sigtryggsson"
 layout: team-member
 header_transparent: true
-date: 2023-06-19T13:44:30+10:00
-weight: 2
-meet: "placeholder"
-description: "daniel description"
-thumbnail: "/assets/images/team/daniel-thumbnail.jpg"
-image: "/assets/images/team/daniel.jpg"
-jobtitle: "daniel jobtitle"
+title: "Einar Már Björgvinsson"
+date: 2023-08-16T13:44:30+10:00
+weight: 3
+description: "einar description"
+thumbnail: "/assets/images/team/einar.jpg"
+image: "/assets/images/team/einar.jpg"
+jobtitle: "einar jobtitle"
 links:
-  - url: "https://www.linkedin.com/in/danielbergmann1/"
+  - url: "https://www.linkedin.com/in/einar-m%C3%A1r-bj%C3%B6rgvinsson-9167833/"
     label: LinkedIn
     icon: "fab fa-linkedin"
-  - #url: "https://www.linkedin.com/in/danielbergmann1/"
+  - #url: "https://www.linkedin.com/in/gudmundsson/"
     #label: Github
     #icon: "fab fa-github"
 lang: en
@@ -45,6 +44,5 @@ grid:
   sort_by: "weight" # "date", "weight"
   columns: 3
   prevent_click: false
-
 ---
-{% tf _collections/team/Daniel.md %}
+{% tf _collections/team/Einar.md %}

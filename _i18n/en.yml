@@ -73,8 +73,20 @@ team:
   intro:
     heading: "We are a technology startup in the smart water management space"
     sub_heading: "We are Dedicated to Empower Businesses to Excel in Achieving Sustainability Targets."
-  meet_the_team: Meet the Team
+  meet_the_team: Meet the rest of the team
   button: Contact Us
+  Daniel: 
+    description: Daniel is responsible for all things product development and testing. He also takes care of business operations and fundraising.
+    jobtitle: Founder/Director/Technical architect
+  Kristjan: 
+    description: Kristjan is in charge of business strategy and outreach.
+    jobtitle: Business Strategist / Senior Advisor / Board member
+  Hildur: 
+    description: Hildur provides guidance on sustainability standards in the marketplace.
+    jobtitle: Boardmember
+  Einar: 
+    description: Einar is a master of everything software development. He contributes to firmware and inhouse testing infrastructure.
+    jobtitle: Software developer
 projects:
   title: Our Projects
   description: Showcase of our work

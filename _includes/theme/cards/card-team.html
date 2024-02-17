@@ -28,10 +28,18 @@
         <h3>{{ title }}</h3>
       {% endif %}
     </div>
-    <div class="card-jobtitle">{{ jobtitle }}</div>
+    <div class="card-jobtitle">
+        {% if jobtitle == "daniel jobtitle" %} <h3>{% t team.Daniel.jobtitle %}</h3> {% endif %}
+        {% if jobtitle == "hildur jobtitle" %} <h3>{% t team.Hildur.jobtitle %}</h3> {% endif %}
+        {% if jobtitle == "kristjan jobtitle" %} <h3>{% t team.Kristjan.jobtitle %}</h3> {% endif %}
+        {% if jobtitle == "einar jobtitle" %} <h3>{% t team.Einar.jobtitle %}</h3> {% endif %}
+    </div>
     {% if description %}
       <div class="card-description">
-        <p>{{ description }}</p>
+        {% if description == "daniel description" %} <p>{% t team.Daniel.description %}</p> {% endif %}
+        {% if description == "hildur description" %} <p>{% t team.Hildur.description %}</p> {% endif %}
+        {% if description == "kristjan description" %} <p>{% t team.Kristjan.description %}</p> {% endif %}
+        {% if description == "einar description" %} <p>{% t team.Einar.description %}</p> {% endif %}
       </div>
     {% endif %}
     {% if links %}
