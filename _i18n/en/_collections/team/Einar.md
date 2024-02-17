@@ -15,4 +15,4 @@ Einar Már is a dedicated professional with extensive experience in technology m
 
 **Personal Interests:**
 
-In his leisure time, Einar Már enjoys exploring the great outdoors, particularly hiking in scenic landscapes. He also has a passion for culinary adventures, frequently experimenting with new recipes and cuisines.
+In his leisure time, Einar Már enjoys spending time with family and friends, studying new technologies and trends, travelling, playing music and outdoor walks with the dog.

@@ -86,7 +86,7 @@ team:
     jobtitle: Boardmember
   Einar: 
     description: Einar is a master of everything software development. He contributes to firmware and inhouse testing infrastructure.
-    jobtitle: Software developer
+    jobtitle: Embedded Software Engineer
 projects:
   title: Our Projects
   description: Showcase of our work

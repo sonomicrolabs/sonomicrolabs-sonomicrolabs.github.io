@@ -6,7 +6,7 @@ Einar Már er sérfræðingur sem hefur mikla reynslu í stjórnun tækniþróun
 - Tæknileg vörustjórnun
 - Mat á nýjum tækniþróunum
 - Liðsstjórnun og þjálfun
-- Sérfræði í Linux þróun
+- Linux stýrikerfi
 
 **Menntunar bakgrunnur:**
 
@@ -15,4 +15,4 @@ Einar Már er sérfræðingur sem hefur mikla reynslu í stjórnun tækniþróun
 
 **Persónuleg áhugamál:**
 
-Í frítíma sínum eltir Einar Már náttúruna og ferðast um fegurstu staði landsins.
+Í frítíma sínum nýtur Einar Már að eyða tíma með fjölskyldu og vinum, ásamt því að kynna sér nýjar tæknir og tækniþróanir. Sem hundaeigandi nýtur hann reglulegrar útivistar ásamt því að spila tónlist.
