@@ -30,11 +30,9 @@ Gagnasöfnunarvélbúnaður SonoMicro er hannaður frá grunni, sem tryggir áre
 
 Hjá SonoMicro erum við stolt af því að bjóða upp á sérsniðna nálgun til að ná markmiðum þínum um vatnsstjórnun. Ítarleg greining okkar á núverandi vatnsnotkunarmynstri þínum og innviðum gerir okkur kleift að veita sérsniðnar ráðleggingar til að hámarka skilvirkni og lágmarka sóun.
 
-- Háþróaða undirmælingarvélbúnaðurinn okkar og notendavænni stafræni vettvangurinn okkar er hannaður til að samþættast óaðfinnanlega við núverandi kerfi og tryggja hnökralaus umskipti yfir í snjallari og sjálfbærari vatnsstjórnunarhætti án þess að þurfa niður í miðbæ eða viðbótarverkfræðiinnviði .
-
 - Njóttu áframhaldandi stuðnings- og viðhaldsþjónustu frá sérstakri teymi okkar, ásamt aðgangi að dýrmætri innsýn og skýrslum sem hjálpa þér að fylgjast með framförum og taka upplýstar ákvarðanir um stöðugar umbætur.
 
-- Veldu SonoMicro sem alhliða lausn þína til að umbreyta því hvernig þú stjórnar vatnsauðlindum og stuðla að grænni framtíð, allt á sama tíma og þú lágmarkar truflanir á rekstri þínum.
+- Veldu SonoMicro sem alhliða lausn þína til að umbreyta því hvernig þú stjórnar vatnsauðlindum og stuðla að grænni framtíð, allt á sama tíma og þú lágmarkar truflanir á rekstrinum þínum.
 
 ## Skuldbinding okkar við Heimsmarkmið Sameinuðu þjóðanna
 Við hjá SonoMicro erum staðráðin í að leggja okkar af mörkum til sjálfbærrar framtíðar með því að samræma verkefni okkar og starfsemi við helstu markmið Sameinuðu þjóðanna um sjálfbæra þróun (e.SDG). Áhersla okkar á skilvirka vatnsstjórnunarhætti styður beint eftirfarandi markmið:

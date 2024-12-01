@@ -15,7 +15,7 @@ baseurl:
 languageNames:
   is: Icelandic
   en: English
-exclude_from_localizations: [ "CNAME"]
+exclude_from_localizations: ["CNAME"]
 
 # Plugins
 plugins:
