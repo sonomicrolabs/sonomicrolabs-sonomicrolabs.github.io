@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tilkynning: Nýsköpunarstyrkur Íslandsbanka"
-date: 2024-1-12
+date: 2024-11-28
 authors: ["Daniel Sigtryggsson"]
 categories: [Tilkynning]
 description: "SonoMicro hefur hlotið 3 milljónir króna í styrk frá Frumkvöðlasjóði Íslandsbanka til að styðja áframhaldandi þróun hljóðbylgjutækni í vatnsflæðismælingum."
